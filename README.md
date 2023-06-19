@@ -2,7 +2,7 @@
 
 [View the live project here.](https://sdthomas91.github.io/ng-spmu-milestone/)
 
-This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beauty. It is designed to be responsive and accessible on a range of devices, making it easy and accessible for clients and collaborators alike.
+This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beauty. It is designed to be responsive and accessible on a range of devices, making it easy and accessible for clients and collaborators alike. It is a continuous scroll, single page site with a modal pop-up newsletter sign-up. It will also feature a modal gallery for mobile users.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -12,42 +12,44 @@ This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beaut
 
   - #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the practitioner/organisation.
+    2. As a First Time Visitor, I want to be able to easily locate an option to contact or book in.
+    3. As a First Time Visitor, I want to be able to easily navigate throughout the site to understand pricing and details of different services
+    4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
   - #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find information about coding challenges.
+    1. As a Returning Visitor, I want to find new or existing services.
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-    3. As a Returning Visitor, I want to find community links.
+    3. As a Returning Visitor, I want to find Community/Social links.
 
   - #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    1. As a Frequent User, I want to check to see if there are any newly added services or offers.
+    2. As a Frequent User, I want to check to see if there are any new results images to see work/improvements.
+    3. As a Frequent User, I want to sign up to be able to easily contact the organise to rebook.
 
 - ### Design
   - #### Colour Scheme
-    - The two main colours used are Code Insititue red, and white.
+    - The three main colours used are #eab29d (Accent), #55433C (Dark) and off-white #fffcfa (Light) .
   - #### Typography
     - The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    - Additional typography will include Merriweather Google Font as a nice pairing for Montserrat. It is a modern serif font that portrays class and cleanliness whilst maintaining readability.
   - #### Imagery
     - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](https://github.com/)
+  - Main Page Wireframe - [View](https://www.figma.com/file/0p1Nlz6Kia954xdU5fe7HX/NG-spmu-wireframe?type=design&node-id=0%3A1&t=dXZ1j4cKAh2razPm-1)
 
-  - Mobile Wireframe - [View](https://github.com/)
-
-  - Contact Us Page Wireframe - [View](https://github.com/)
+  - Newsletter Modal Wireframe - [View](https://github.com/)
 
 ## Features
 
 - Responsive on all device sizes
 
 - Interactive elements
+
+- Modal features for seamless single page functionality
 
 ## Technologies Used
 
@@ -73,9 +75,11 @@ This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beaut
 1. [GitHub:](https://github.com/)
    - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-   - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+   - Photoshop was used to resize images and editing photos for the website.
+     [Illustrator:](https://www.adobe.com/uk/products/illustrator.html)
+   - Illustrator was used to create the logo and website banners.
+1. [Figma:](https://www.figma.com/)
+   - Figma was used to create the wireframes during the design process.
 
 ## Testing
 
