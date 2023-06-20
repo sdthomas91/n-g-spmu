@@ -41,7 +41,7 @@ This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beaut
 
   - Main Page Wireframe - [View](https://www.figma.com/file/0p1Nlz6Kia954xdU5fe7HX/NG-spmu-wireframe?type=design&node-id=0%3A1&t=dXZ1j4cKAh2razPm-1)
 
-  - Newsletter Modal Wireframe - [View](https://github.com/)
+  - Newsletter Modal Wireframe - [View](https://www.figma.com/file/6WPw1s4hxmiNXuZN8FP4b0/Untitled?type=design&node-id=0%3A1&t=irnY2dMoasWcrNAW-1)
 
 ## Features
 
