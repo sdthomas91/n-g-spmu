@@ -30,7 +30,7 @@ This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beaut
 
 - ### Design
   - #### Colour Scheme
-    - The three main colours used are #eab29d (Accent), #55433C (Dark) and off-white #fffcfa (Light) .
+    - The three main colours used are #eab29d (Accent), #3C2C2A (Dark) and off-white #fffcfa (Light) .
   - #### Typography
     - The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     - Additional typography will include Merriweather Google Font as a nice pairing for Montserrat. It is a modern serif font that portrays class and cleanliness whilst maintaining readability.
