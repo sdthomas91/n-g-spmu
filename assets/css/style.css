@@ -16,6 +16,15 @@ body {
 
 /* ----------------------------- Navigation */
 
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.nav-logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
 .dropdown-menu {
     border: 1px solid #eab29d;
     border-radius: 15px;
@@ -47,3 +56,5 @@ body {
     border-color: #e6a288;
     color: #55433c;
 }
+
+/* ----------------------------- Media Queries */
