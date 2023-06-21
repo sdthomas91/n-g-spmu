@@ -9,9 +9,41 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    color: #55433c;
 }
 
 /* ----------------------------- Colors */
 
 /* ----------------------------- Navigation */
 
+.dropdown-menu {
+    border: 1px solid #eab29d;
+    border-radius: 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8e4dc;
+}
+
+/* ----------------------------- Buttons */
+
+.btn--cta {
+    font-weight: 500;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.btn--pink {
+    color: #55433c;
+    background-color: #eab29d;
+    border-color: #eab29d;
+}
+
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
+    background-color: #e6a288;
+    border-color: #e6a288;
+    color: #55433c;
+}
