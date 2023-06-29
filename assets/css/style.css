@@ -112,6 +112,8 @@ body {
 
 .jumbotron {
     background-color: rgba(255, 252, 250, 0.8);
+    border-radius: 45px;
+    margin-top: 50px;
 }
 
 /* ----------------------------- Buttons */
@@ -163,5 +165,21 @@ body {
     .jumbotron {
         margin-top: 150px;
         max-width: 80vw;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .jumbotron-header {
+        font-size: 2rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .small,
+    small {
+        font-size: 60%;
     }
 }
