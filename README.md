@@ -32,7 +32,7 @@ This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beaut
 
   - #### Colour Scheme
 
-    - The three main colours used are #eab29d (Accent), #3C2C2A (Dark) and off-white #fffcfa (Light) .
+    - The three main colours used are #eab29d (Accent), #e6a288 (Interaction Feedback on Accent Colour), #3c2c2a (Dark) and off-white #fffcfa (Light) .
 
     <img src="assets/images/colour-palette.png">
 
@@ -45,7 +45,13 @@ This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beaut
     <img src="assets/images/font-pairing.png">
 
   - #### Imagery
+
     - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - The image of the technician provides a face, building trust between the user and the site owner
+    - Stock images are used for the services provided to ensure high quality, professional appearance. Again reinforcing trust between user and owner.
+
+  - #### Interaction Feedback
+    - Accent colours are used upon interaction such as hover and click to provide feedback to the user that they are interacting with an element, and that the element serves a purpose. Examples include button hover changing from the primary #eab29d to a deeper #e6a288 and the nav items changing from a light grey to a dark grey.
 
 * ### Wireframes
 
