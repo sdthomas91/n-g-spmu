@@ -43,6 +43,11 @@ p {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.text--fine {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
 /* ----------------------------- Dividers */
 
 
@@ -156,6 +161,10 @@ p {
 .btn-lg {
     margin-bottom: 10px;
 }
+
+/* ----------------------------- Technician */
+
+
 
 /* ----------------------------- Footer */
 
