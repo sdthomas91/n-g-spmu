@@ -164,7 +164,19 @@ p {
 
 /* ----------------------------- Technician */
 
+#ng-img {
+    background: url(/assets/images/nina-gazzard.jpg) no-repeat bottom left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 
 /* ----------------------------- Footer */
 
