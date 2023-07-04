@@ -4,7 +4,7 @@
 
 This is the main marketing site for Nina Gazzard Semi-Permanent Makeup and Beauty. It is designed to be responsive and accessible on a range of devices, making it easy and accessible for clients and collaborators alike. It is a continuous scroll, single page site with a modal pop-up newsletter sign-up. It will also feature a modal gallery for mobile users.
 
-Utilising Bootstrap row/column tool the site will present responsively and in a well structured, readable, easy to navigate way so as to allow maximum UX. 
+Utilising Bootstrap row/column tool the site will present responsively and in a well structured, readable, easy to navigate way so as to allow maximum UX.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
