@@ -69,6 +69,12 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 
 - Modal features for seamless single page functionality
 
+- Section ID's allow for anchor links in Nav to provide a seamless navigation
+
+- Fixed navigation to allow easy navigation of single scroll page
+
+- Back to top button allows quick navigation of single scroll page
+
 ## Technologies Used
 
 ### Languages Used
