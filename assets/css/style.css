@@ -182,10 +182,12 @@ p {
     border-radius: 10px;
     margin-right: 10px;
     width: 100%;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
 .tech--img {
     height: 450px;
+
 }
 
 /* ----------------------------- Footer */
