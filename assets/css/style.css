@@ -164,16 +164,24 @@ p {
 
 /* ----------------------------- Technician */
 
+
+.tech-about {
+
+    margin-top: 120px;
+}
+
+
+.technician-container {
+    height: 450px;
+    margin: 10px 15px;
+    position: relative;
+}
+
 #ng-img {
 
     border-radius: 10px;
     margin-right: 10px;
     width: 100%;
-}
-
-.technician-container {
-    height: 450px;
-    margin: 10px 15px;
 }
 
 .tech--img {
