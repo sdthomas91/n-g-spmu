@@ -162,8 +162,12 @@ p {
     margin-bottom: 10px;
 }
 
-/* ----------------------------- Technician */
+/* ----------------------------- About Us */
 
+.about-us-title {
+    margin-bottom: 35px;
+
+}
 
 .tech-about {
 
@@ -172,7 +176,6 @@ p {
 
 
 .technician-container {
-    height: 450px;
     margin: 10px 15px;
     position: relative;
 }
@@ -185,9 +188,14 @@ p {
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
-.tech--img {
-    height: 450px;
+.tech--img {}
 
+.about-us-info>p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #55433c;
+    font-size: 1rem;
+    margin-top: 30px;
+    line-height: 1.8rem;
 }
 
 /* ----------------------------- Footer */
@@ -200,6 +208,25 @@ footer {
 
 /* ----------------------------- Media-Queries */
 
+
+/* ------------------ XXS Screens */
+@media screen and (max-width: 417px) {
+    .jumbotron-header {
+        font-size: 2rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .small,
+    small {
+        font-size: 60%;
+    }
+}
+
+
+/* ------------------ XS Screens */
 @media screen and (max-width: 576px) {
     .callout-container {
         height: 90vh;
@@ -222,19 +249,46 @@ footer {
         max-width: 80vw;
         padding: 40px;
     }
+
+
+
 }
 
-@media screen and (max-width: 417px) {
-    .jumbotron-header {
-        font-size: 2rem;
-    }
+/* ------------------ Small Screens */
 
-    .lead {
+@media screen and (max-width: 768px) {
+
+    .about-us-info {
+        margin-top: 30px;
+    }
+}
+
+/* ------------------ Medium Screens */
+
+@media screen and (max-width: 992px) {
+
+    .about-us-info>p {
         font-size: 1rem;
+        margin-top: 28px;
+        line-height: 1.3rem;
     }
 
-    .small,
-    small {
-        font-size: 60%;
+    .about-us-info>h2 {
+        font-size: 28px;
+    }
+
+    .about-us-info>h4 {
+        font-size: 20px;
+    }
+
+}
+
+/* ------------------ Large Screens */
+
+@media screen and (min-width: 993px) {
+    .about-us-info>p {
+        font-size: 1.2rem;
+        margin-top: 28px;
+        line-height: 1.4rem;
     }
 }
