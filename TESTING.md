@@ -4,6 +4,13 @@
 
 The purpose of this document is to identify key testing stages and instances where decisions were made to change or keep certain features.
 
+## Bugs
+
+- White Space down right hand side of screen - only on smaller screens
+  - Systematically commented out each section and continued to refresh page. No section seemed responsible. Then commented out footer and white line disappeared. Added class of container-fluid and no-gutters to footer element and un-commented code and now working fine.
+
+# SECTION TESTING
+
 ## Header
 
 - ### Navigation
