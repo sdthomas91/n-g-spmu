@@ -7,7 +7,11 @@ The purpose of this document is to identify key testing stages and instances whe
 ## Bugs
 
 - White Space down right hand side of screen - only on smaller screens
+
   - Systematically commented out each section and continued to refresh page. No section seemed responsible. Then commented out footer and white line disappeared. Added class of container-fluid and no-gutters to footer element and un-commented code and now working fine.
+
+- All fonts shrunk down to a tiny sizing and has thrown off entire web fonts
+  -
 
 # SECTION TESTING
 
@@ -40,14 +44,28 @@ The purpose of this document is to identify key testing stages and instances whe
 ## About Us Section
 
 - ### Multi-Column (About Tech)
+
   - Added heading and subheading, image and paragraph. From a UX/UI perspective it didn't sit nicely on a large screen and didn't scale well across medium screens. (images below)
-  <table border="0">
-     <tr>
-    <td><b style="font-size:15px">Large Before</b></td>
-     <td><b style="font-size:15px">Medium Before</b></td>
-     </tr>
-     <tr>
-    <td><img src="/assets/images/lg-screen-about-before.png"></td>
-    <td><img src="/assets/images/med-screen-about-before.png"></td>
-     </tr>
+      <table border="0">
+         <tr>
+        <td><b style="font-size:15px">Large Before</b></td>
+         <td><b style="font-size:15px">Medium Before</b></td>
+         </tr>
+         <tr>
+        <td><img src="/assets/images/lg-screen-about-before.png"></td>
+        <td><img src="/assets/images/med-screen-about-before.png"></td>
+         </tr>
+        </table>
+
+        Amended to remove heading and include inline with image as per images below:
+
+    <table border="0">
+         <tr>
+        <td><b style="font-size:15px">Large After</b></td>
+         <td><b style="font-size:15px">Medium After</b></td>
+         </tr>
+         <tr>
+        <td><img src="/assets/images/lg-screen-about-before.png"></td>
+        <td><img src="/assets/images/med-screen-about-before.png"></td>
+         </tr>
     </table>

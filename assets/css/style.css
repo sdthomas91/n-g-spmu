@@ -194,12 +194,21 @@ p {
 
 .tech--img {}
 
+
+
 .about-us-info>p {
     font-family: 'Source Sans 3', sans-serif;
     color: #55433c;
     font-size: 1rem;
     margin-top: 30px;
     line-height: 1.8rem;
+}
+
+.about-us-info i {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #55433c;
 }
 
 /* ----------------------------- Footer */
@@ -232,6 +241,26 @@ footer {
 
 /* ------------------ XS Screens */
 @media screen and (max-width: 576px) {
+
+
+    .jumbotron {
+        margin-top: 150px;
+        max-width: 80vw;
+        padding: 40px;
+    }
+
+
+
+}
+
+/* ------------------ Small Screens */
+
+@media screen and (max-width: 768px) {
+
+    .about-us-info {
+        margin-top: 30px;
+    }
+
     .callout-container {
         height: 90vh;
 
@@ -252,18 +281,6 @@ footer {
         margin-top: 150px;
         max-width: 80vw;
         padding: 40px;
-    }
-
-
-
-}
-
-/* ------------------ Small Screens */
-
-@media screen and (max-width: 768px) {
-
-    .about-us-info {
-        margin-top: 30px;
     }
 }
 
@@ -294,5 +311,14 @@ footer {
         font-size: 1.2rem;
         margin-top: 28px;
         line-height: 1.4rem;
+
     }
+
+    .about-us-info {
+        padding-top: 60px;
+    }
+
+
 }
+
+@media screen and (min-width: 768px) {}
