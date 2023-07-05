@@ -104,6 +104,8 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
    - Illustrator was used to create the logo and website banners.
 1. [Figma:](https://www.figma.com/)
    - Figma was used to create the wireframes during the design process.
+1. [CSSGradient] (https://cssgradient.io/)
+   - CSSGradient.io was used to generate css gradient backgrounds.
 
 ## Testing
 
