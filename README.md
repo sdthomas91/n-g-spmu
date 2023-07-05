@@ -107,6 +107,8 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 
 ## Testing
 
+A separate Markdown document has been added to showcase code/UI/UX testing throughout and can be found [here] (https://github.com/sdthomas91/ng-spmu-milestone/blob/main/TESTING.md)
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
