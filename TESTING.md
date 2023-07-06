@@ -11,7 +11,7 @@ The purpose of this document is to identify key testing stages and instances whe
   - Systematically commented out each section and continued to refresh page. No section seemed responsible. Then commented out footer and white line disappeared. Added class of container-fluid and no-gutters to footer element and un-commented code and now working fine.
 
 - All fonts shrunk down to a tiny sizing and has thrown off entire web fonts
-  -
+  - Tried hard refresh of browser window but did not work - closed down codeanywhere and reopened project with full reset and site now responding fine with correct size fonts. 
 
 # SECTION TESTING
 
