@@ -65,6 +65,36 @@ p {
     background-color: #eab29d;
 }
 
+/* ----------------------------- Buttons */
+
+.btn--cta {
+    font-weight: 500;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.btn--pink {
+    color: #55433c;
+    background-color: #eab29d;
+    border-color: #eab29d;
+}
+
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
+    background-color: #e6a288;
+    border-color: #e6a288;
+    color: #55433c;
+}
+
+.btn-lg {
+    margin-bottom: 10px;
+}
+
+.about--btn {
+    margin-top: 40px;
+}
 
 
 /* ----------------------------- Navigation */
@@ -135,33 +165,6 @@ p {
     border-radius: 45px;
     margin-top: 50px;
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
-}
-
-/* ----------------------------- Buttons */
-
-.btn--cta {
-    font-weight: 500;
-    border-radius: 15px;
-    width: 160px;
-}
-
-.btn--pink {
-    color: #55433c;
-    background-color: #eab29d;
-    border-color: #eab29d;
-}
-
-.btn--pink:hover,
-.btn--pink:active,
-.btn--pink:focus,
-.btn--pink:active:focus {
-    background-color: #e6a288;
-    border-color: #e6a288;
-    color: #55433c;
-}
-
-.btn-lg {
-    margin-bottom: 10px;
 }
 
 /* ----------------------------- About Us */
