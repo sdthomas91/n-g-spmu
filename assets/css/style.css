@@ -8,6 +8,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -94,8 +95,26 @@ p {
 
 .about--btn {
     margin-top: 40px;
+    padding:
 }
 
+/* ----------------------------- Back to Top */
+
+.btt--btn {
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+
+
+}
 
 /* ----------------------------- Navigation */
 
