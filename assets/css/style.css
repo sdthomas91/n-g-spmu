@@ -287,6 +287,10 @@ footer {
         max-width: 80vw;
         padding: 40px;
     }
+
+    .tech-about {
+        padding-top: 70px;
+    }
 }
 
 /* ------------------ Medium Screens */
@@ -307,9 +311,19 @@ footer {
         font-size: 20px;
     }
 
+
+
 }
 
-/* ------------------ Large Screens */
+
+
+/*-------------------------Min-Width Media Queries */
+@media screen and (min-width: 768px) {
+    .about-us-info {
+        padding-top: 60px;
+        margin-left: 30px;
+    }
+}
 
 @media screen and (min-width: 993px) {
     .about-us-info>p {
@@ -320,16 +334,8 @@ footer {
     }
 
     .about-us-info {
-        padding-left: 50px;
+        margin-left: 50px;
+        padding-top: 80px;
     }
 
-
-
-
-}
-
-@media screen and (min-width: 768px) {
-    .about-us-info {
-        padding-top: 60px;
-    }
 }
