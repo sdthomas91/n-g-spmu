@@ -62,15 +62,15 @@ The purpose of this document is to identify key testing stages and instances whe
          </tr>
         </table>
 
-        Amended to remove heading and include inline with image as per images below:
+        Amended to remove heading and include inline with image for larger screens and have content stack on smaller screens (also some styling amendements such as borders and backgrounds) - as per images below:
 
     <table border="0">
-         <tr>
+        <tr>
         <td><b style="font-size:15px">Large After</b></td>
          <td><b style="font-size:15px">Medium After</b></td>
          </tr>
          <tr>
-        <td><img src="/assets/images/lg-screen-about-before.png"></td>
-        <td><img src="/assets/images/med-screen-about-before.png"></td>
-         </tr>
+        <td><img src="/assets/images/lg-screen-about-after.png"></td>
+        <td><img src="/assets/images/med-screen-about-after.png"></td>
+        </tr>
     </table>
