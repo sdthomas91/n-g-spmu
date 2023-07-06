@@ -106,6 +106,8 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
    - Figma was used to create the wireframes during the design process.
 1. [CSSGradient] (https://cssgradient.io/)
    - CSSGradient.io was used to generate css gradient backgrounds.
+1. [OnePageLove] (https://onepagelove.com/)
+   - OnePageLove was used as inspiration for continuous scroll websites
 
 ## Testing
 
@@ -260,5 +262,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - My Mentor for continuous helpful feedback.
 
 - Tutor support at Code Institute for their support.
+
+- Pasquale Fasulo for continuous helpful input and feedback
 
 - ByteGrad Tips on YouTube for helpful tips on utilising bootstrap additional capabilities
