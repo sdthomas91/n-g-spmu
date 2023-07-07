@@ -108,6 +108,8 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
    - CSSGradient.io was used to generate css gradient backgrounds.
 1. [OnePageLove] (https://onepagelove.com/)
    - OnePageLove was used as inspiration for continuous scroll websites
+1. [StackOverflow] (https://stackoverflow.com/)
+   - Used for code snippets and code validation
 
 ## Testing
 
@@ -244,6 +246,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - [W3CSchools] (https://www.w3schools.com/) W3C schools used to reinforce CSS understanding
 
 - [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+- [StackOverflow] (https://stackoverflow.com/) : For coding validation and tips on refining code. Also used for code snippets customised with my own css.
 
 ### Content
 
