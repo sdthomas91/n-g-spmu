@@ -255,7 +255,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-- All Images were created or photographed by the developer
+- Some Images were created or photographed by the developer
+
+- Technician image on home page - <a href="https://www.freepik.com/free-photo/woman-visiting-cosmetologist-making-rejuvenation-procedures_12178265.htm#query=beautician%20in%20salon&position=3&from_view=search&track=ais">Image by senivpetro</a> on Freepik
 
 ### Acknowledgements
 
