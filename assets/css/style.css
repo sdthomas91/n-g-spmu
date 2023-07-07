@@ -336,7 +336,7 @@ footer {
 @media screen and (max-width: 992px) {
 
     .about-us-info>p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-top: 28px;
         line-height: 1.3rem;
     }
