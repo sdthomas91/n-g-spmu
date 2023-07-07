@@ -74,3 +74,15 @@ The purpose of this document is to identify key testing stages and instances whe
         <td><img src="/assets/images/med-screen-about-after.png"></td>
         </tr>
     </table>
+
+# ELEMENT TESTING
+
+## Buttons (outside of standard buttons)
+
+- ### Back to top button
+  - Added a back to top button - had some issues with sizing and position. Used Stack Overflow article [here] (https://stackoverflow.com/questions/68627683/scroll-up-button-without-javascript#:~:text=Simply%20make%20a%20%3Ca%20href,on%20top%20of%20the%20page.&text=The%20link%20has%20the%20style,scrolls%20to%20the%20very%20top.) to help debug.
+  - Added smooth scroll to CSS to ensure a smooth experience for users
+  - Used empty href in order to ensure a complete top scroll - tried "ID" anchor link but was clunky and unreliable
+  - Utilised interaction feedback to help users know it is a clickable button
+  - Font awesome up arrow used to illustrate functionality
+  - 'aria-hidden="true"' used as semantic icon - text alternative span used
