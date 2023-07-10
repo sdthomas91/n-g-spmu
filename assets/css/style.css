@@ -39,7 +39,8 @@ p {
 }
 
 .services-block--pink {
-    background-color: #eab29d;
+    background: #eab29d;
+    background: linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
 }
 
 
@@ -286,9 +287,14 @@ p {
 
 .service-img {
     width: 80%;
-    padding: 25px;
+    padding: 20px;
     border-radius: 100px;
     margin: auto;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.service-text {
+    margin-top: 60px;
 }
 
 /* ----------------------------- Footer */
