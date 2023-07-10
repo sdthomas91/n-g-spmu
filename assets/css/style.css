@@ -277,6 +277,18 @@ p {
 
 .services-block {
     padding: 25px 40px;
+    margin: 0;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.service-img {
+    width: 80%;
+    padding: 25px;
+    border-radius: 100px;
+    margin: auto;
 }
 
 /* ----------------------------- Footer */
