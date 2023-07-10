@@ -18,6 +18,18 @@ The purpose of this document is to identify key testing stages and instances whe
 
   - Anchor link for About Us section ceased functioning properly - had added Bootstrap class name "container-fluid" into the "id" instead of the "class". Removed and now works fine.
 
+- A new white space down the right hand side of the screen
+
+![White space down side of smaller screens](/assets/images/white-line-mobile.png)
+    
+    
+- Used google chrome developer tools to examine each element. It became clear that the first and second div of the "Services Section" were responsible.
+- Attempted to utilise no gutters rule as this fixed the issue last time, but this time it was unsuccessful. 
+- Within google chrome developer tools I noticed that the bootstrap "row" class was administering a margin right and left of -15px. 
+![row Class issues](/assets/images/row-class-issue.png)
+- Once removed, white space disappeared. So added rule of margin:0 to "services-container" class and issue was resolved
+![white space resolution](/assets/images/white-space-resolution.png)
+
 # SECTION TESTING
 
 ## Header
