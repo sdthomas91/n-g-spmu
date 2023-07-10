@@ -93,6 +93,11 @@ p {
 
 }
 
+.divider--light {
+    background-color: #fffcfa;
+
+}
+
 .divider-small {
     width: 45px;
     height: 5px;
