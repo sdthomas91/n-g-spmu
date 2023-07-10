@@ -110,6 +110,8 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
    - OnePageLove was used as inspiration for continuous scroll websites
 1. [StackOverflow] (https://stackoverflow.com/)
    - Used for code snippets and code validation
+1. [GoogleBard] (bard.google.com)
+    - Used Bard AI to help generate some good copy for the website
 
 ## Testing
 
@@ -251,7 +253,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
-- All content was written by the developer.
+- Google Bard AI was used to generate around 50% of the website copy
 
 - Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
