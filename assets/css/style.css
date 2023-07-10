@@ -34,6 +34,15 @@ p {
 
 /* ----------------------------- Colors */
 
+.services-block--pink {
+    background-color: #fffcfa;
+}
+
+.services-block--pink {
+    background-color: #eab29d;
+}
+
+
 /* ----------------------------- Global Styles */
 
 .text-uppercase {
@@ -254,6 +263,12 @@ p {
     color: #55433c;
 }
 
+/* ----------------------------- Services */
+
+.services-container {
+    text-align: center;
+}
+
 /* ----------------------------- Footer */
 
 footer {
@@ -374,6 +389,10 @@ footer {
     .about-us-info {
         margin-left: 50px;
         padding-top: 80px;
+    }
+
+    .services-container {
+        text-align: left;
     }
 
 }
