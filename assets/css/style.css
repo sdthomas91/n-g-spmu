@@ -59,6 +59,15 @@ p {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.overlay--light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .text-fine {
     font-weight: 300;
     letter-spacing: 3px;
@@ -285,12 +294,14 @@ p {
 
 .services-title {
     margin-bottom: 30px;
-
+    padding: 0;
 }
 
 .services-block {
     padding: 25px 40px;
     margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .img-container {
@@ -410,11 +421,47 @@ footer {
         font-size: 20px;
     }
 
-    .block--blading {}
+    .block--blading {
+        background: url(/assets/images/microblading.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
-    .block--liner {}
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-    .block--blush {}
+        position: relative;
+    }
+
+    .block--liner {
+        background: url(/assets/images/eye-liner.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .block--blush {
+        background: url(/assets/images/lip-blush.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
 
 
 }
