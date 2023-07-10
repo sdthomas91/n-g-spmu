@@ -79,6 +79,18 @@ p {
     background-color: #eab29d;
 }
 
+.divider--dark {
+    background-color: #55433c;
+
+}
+
+.divider-small {
+    width: 45px;
+    height: 5px;
+    border: 0;
+    border-radius: 20px;
+}
+
 /* ----------------------------- Buttons */
 
 .btn--cta {
@@ -287,16 +299,22 @@ p {
 
 .service-img {
     width: 80%;
-    padding: 20px;
     border-radius: 100px;
     margin: auto;
-    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .service-text {
     margin-top: 60px;
 }
 
+.service-text p {
+    margin-top: 20px;
+}
+
+/* ------Background Images for Blocks */
+
+.
 /* ----------------------------- Footer */
 
 footer {
@@ -392,6 +410,11 @@ footer {
         font-size: 20px;
     }
 
+    .block--blading {}
+
+    .block--liner {}
+
+    .block--blush {}
 
 
 }
