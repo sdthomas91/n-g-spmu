@@ -43,6 +43,20 @@ The purpose of this document is to identify key testing stages and instances whe
 
 ![resolved white block issue](/assets/images/resolved-whiteout.png)
 
+1. Images not showing on deployment
+   - when website is deployed to github pages some images appear and others do not.
+   - Launched from codeanywhere and website shows up all images okay.
+
+| Logo and hero not showing                 |                 Tech image present                 |                Services images present on large screen                 |                     no service images on small screen |
+| ----------------------------------------- | :------------------------------------------------: | :--------------------------------------------------------------------: | ----------------------------------------------------: |
+| ![No Logo](assets/images/img-issue-4.png) | ![Tech image shows](assets/images/img-issue-3.png) | ![Services images show on large screen](assets/images/img-issue-2.png) | ![Not on small screen](assets/images/img-issue-1.png) |
+
+- Chrome dev tools used to identify any links between images that do show and images that do not
+- Connection found - images showing source url started with "assets/" images not showing started with "/assets/"
+- corrected syntax and images now showing okay
+
+- Dev tools
+
 # SECTION TESTING
 
 ## Header
@@ -71,9 +85,9 @@ The purpose of this document is to identify key testing stages and instances whe
 
   - Added heading and subheading, image and paragraph. From a UX/UI perspective it didn't sit nicely on a large screen and didn't scale well across medium screens. (images below)
 
-| Large Before                                                                 |                              Small Screen Before                               |
-| ---------------------------------------------------------------------------- | :----------------------------------------------------------------------------: |
-| ![Before of site on large screen](/assets/images/lg-screen-about-before.png) | ![Before of site on medium screen](/assets/images/med-screen-about-before.png) |
+| Large Before                                                                 |                              Small Screen Before                              |
+| ---------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+| ![Before of site on large screen](/assets/images/lg-screen-about-before.png) | ![Before of site on medium screen](assets/images/med-screen-about-before.png) |
 
 Amended to remove heading and include inline with image for larger screens and have content stack on smaller screens (also some styling amendements such as borders and backgrounds) - as per images below:
 
