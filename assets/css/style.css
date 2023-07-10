@@ -34,7 +34,7 @@ p {
 
 /* ----------------------------- Colors */
 
-.services-block--pink {
+.services-block--white {
     background-color: #fffcfa;
 }
 
@@ -266,7 +266,17 @@ p {
 /* ----------------------------- Services */
 
 .services-container {
-    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.services-title {
+    margin-bottom: 30px;
+
+}
+
+.services-block {
+    padding: 25px 40px;
 }
 
 /* ----------------------------- Footer */
@@ -391,8 +401,5 @@ footer {
         padding-top: 80px;
     }
 
-    .services-container {
-        text-align: left;
-    }
 
 }
