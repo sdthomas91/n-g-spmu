@@ -32,18 +32,11 @@ The purpose of this document is to identify key testing stages and instances whe
         - Callout lays nicely on top of hero image with minimal distractions - site colours used to maintain a minimalist/clean look and feel to the website.
         - Added a larger border radius to the jumbotron to enhance the smooth/clean edge feel to the site.
         - Main image did not convert well across screen downsize so used CSS media query to change background image on smaller screens. Images below display before and after of smaller screen - note how the image looks better but still doesn't distract from the main content:
-    <table border="0">
-     <tr>
-    <td><b style="font-size:15px">Large Screens</b></td>
-    <td><b style="font-size:15px">Small Screen Before</b></td>
-    <td><b style="font-size:15px">Small Screen After</b></td>
-     </tr>
-     <tr>
-    <td><img src="/assets/images/lg-screen-hero-ss.png"></td>
-    <td><img src="/assets/images/sml-screen-hero-ss-before.png"></td>
-    <td><img src="/assets/images/sml-screen-hero-ss-after.png"></td>
-     </tr>
-  </table>
+
+    | Large screen Before | Small Screen Before | Small Screen After |
+    | --- | :---: | ---: |
+    | ![Before of site on large screen](/assets/images/lg-screen-hero-ss.png) | ![Before of site on Small Screen](/assets/images/sml-screen-hero-ss-before.png) | ![After of site on Small screen](/assets/images/sml-screen-hero-ss-after.png) |
+    
     I also added some white space below the hero image on mobile to ensure users know that it is scrollable
 
 ## About Us Section
@@ -51,29 +44,19 @@ The purpose of this document is to identify key testing stages and instances whe
 - ### Multi-Column (About Tech)
 
   - Added heading and subheading, image and paragraph. From a UX/UI perspective it didn't sit nicely on a large screen and didn't scale well across medium screens. (images below)
-      <table border="0">
-         <tr>
-        <td><b style="font-size:15px">Large Before</b></td>
-         <td><b style="font-size:15px">Medium Before</b></td>
-         </tr>
-         <tr>
-        <td><img src="/assets/images/lg-screen-about-before.png"></td>
-        <td><img src="/assets/images/med-screen-about-before.png"></td>
-         </tr>
-        </table>
+ 
+| Large Before | Small Screen Before |
+| --- | :---: |
+| ![Before of site on large screen](/assets/images/lg-screen-about-before.png) | ![Before of site on medium screen](/assets/images/med-screen-about-before.png) |
+    
+      
 
-        Amended to remove heading and include inline with image for larger screens and have content stack on smaller screens (also some styling amendements such as borders and backgrounds) - as per images below:
-
-    <table border="0">
-        <tr>
-        <td><b style="font-size:15px">Large After</b></td>
-         <td><b style="font-size:15px">Medium After</b></td>
-         </tr>
-         <tr>
-        <td><img src="/assets/images/lg-screen-about-after.png"></td>
-        <td><img src="/assets/images/med-screen-about-after.png"></td>
-        </tr>
-    </table>
+ Amended to remove heading and include inline with image for larger screens and have content stack on smaller screens (also some styling amendements such as borders and backgrounds) - as per images below:
+ 
+| Large After | Medium After |
+| --- | :---: |
+| ![Before of site on large screen](/assets/images/lg-screen-about-after.png) | ![Before of site on medium screen](/assets/images/med-screen-about-after.png) |
+   
 
 # ELEMENT TESTING
 
