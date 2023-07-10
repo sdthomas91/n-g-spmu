@@ -216,7 +216,7 @@ p {
 .callout-container {
     height: 100vh;
 
-    background: url(assets/images/clinic-desktop.png) no-repeat bottom right fixed;
+    background: url(../images/clinic-desktop.png) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -330,7 +330,7 @@ p {
     margin-top: 20px;
 }
 
-/* ------Background Images for Blocks */
+
 
 
 /* ----------------------------- Footer */
@@ -386,7 +386,7 @@ footer {
     .callout-container {
         height: 90vh;
 
-        background: url(assets/images/clinic-mobile.jpg) no-repeat bottom right fixed;
+        background: url(../images/clinic-mobile.jpg) no-repeat bottom right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -428,8 +428,9 @@ footer {
         font-size: 20px;
     }
 
+    /* ------Background Images for Blocks */
     .block--blading {
-        background: url(assets/images/microblading.png) no-repeat bottom right;
+        background: url(../images/microblading.png) no-repeat bottom right;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -443,7 +444,7 @@ footer {
     }
 
     .block--liner {
-        background: url(assets/images/eye-liner.png) no-repeat bottom right;
+        background: url(../images/eye-liner.png) no-repeat bottom right;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -457,7 +458,7 @@ footer {
     }
 
     .block--blush {
-        background: url(assets/images/lip-blush.png) no-repeat bottom right;
+        background: url(../images/lip-blush.png) no-repeat bottom right;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
