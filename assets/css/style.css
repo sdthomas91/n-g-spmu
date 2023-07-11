@@ -385,7 +385,6 @@ footer {
     .callout-container {
         height: 90vh;
         background: url(../images/clinic-mobile.jpg) no-repeat bottom right;
-        background: url(../images/clinic-mobile.jpg) no-repeat bottom right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
