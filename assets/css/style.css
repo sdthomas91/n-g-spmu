@@ -337,7 +337,7 @@ p {
 
 .service-text p {
     margin-top: 20px;
-    padding: 0 60px;
+    padding: 0px;
 }
 
 
@@ -425,25 +425,6 @@ footer {
     .technician-container {
         margin: 10px 0;
     }
-}
-
-/* ------------------ Medium Screens */
-
-@media screen and (max-width: 992px) {
-
-    .about-us-info>p {
-        font-size: 0.9rem;
-        margin-top: 28px;
-        line-height: 1.3rem;
-    }
-
-    .about-us-info>h2 {
-        font-size: 28px;
-    }
-
-    .about-us-info>h4 {
-        font-size: 20px;
-    }
 
     /* ------Background Images for Blocks */
     .block--blading {
@@ -488,6 +469,7 @@ footer {
         position: relative;
     }
 
+
     /*-------- /background Images for Blocks----*/
 
     .service-text {
@@ -501,6 +483,33 @@ footer {
         margin-top: 20px;
         padding: 0px 20px;
     }
+
+}
+
+/* ------------------ Medium Screens */
+
+@media screen and (max-width: 992px) {
+
+    .about-us-info>p {
+        font-size: 0.9rem;
+        margin-top: 28px;
+        line-height: 1.3rem;
+    }
+
+    .about-us-info>h2 {
+        font-size: 28px;
+    }
+
+    .about-us-info>h4 {
+        font-size: 20px;
+    }
+
+    .service-img {
+        margin-top: 50px;
+    }
+
+
+
 
 
 }
@@ -530,6 +539,11 @@ footer {
 
     .services-title h1 {
         font-size: 300%;
+    }
+
+    .service-text p {
+        margin-top: 20px;
+        padding: 0 60px;
     }
 
 }

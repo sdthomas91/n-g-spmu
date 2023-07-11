@@ -151,6 +151,10 @@ Amended to remove heading and include inline with image for larger screens and h
   - ![Dark blocks with box](assets/images/dark-blocks.png)
 - Readability improved and screen contrast more in line with WebAIM recommendations
 
+#### Tablet view
+
+- Using dev tools seeing different tablet views I decided that the tablet view should replicate more the desktop thant the mobile view. Elements were too wide and the aesthetic was off. Tested separtately on iPad and displayed better - landscape view is more like destop and portrait view more like mobile.
+
 # ELEMENT TESTING
 
 ## Buttons (outside of standard buttons)
