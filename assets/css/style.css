@@ -331,11 +331,13 @@ p {
 }
 
 .service-text {
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .service-text p {
     margin-top: 20px;
+    padding: 0 60px;
 }
 
 
