@@ -410,6 +410,10 @@ footer {
     .tech-about {
         padding-top: 70px;
     }
+
+    .technician-container {
+        margin: 10px 0;
+    }
 }
 
 /* ------------------ Medium Screens */

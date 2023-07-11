@@ -55,7 +55,11 @@ The purpose of this document is to identify key testing stages and instances whe
 - Connection found - images showing source url started with "assets/" images not showing started with "/assets/"
 - corrected syntax and images now showing okay
 
-- Dev tools
+2. Mobile view issue found - technician section sitting over to the right
+   - Full screen the balance is fine but on mobile view the content is off center
+   - ![content off center](assets/images/tech-center-bug.jpeg)
+   - used dev tools to check and the margin used to create balance in full screen is what throws it off
+   - Added media query to remove margin on smaller screens
 
 # SECTION TESTING
 
@@ -71,7 +75,7 @@ The purpose of this document is to identify key testing stages and instances whe
 
   - added a left padding to mobile view only of 50px and issue resolved nicely
 
-  ![Logo now centered](assets/iomages/logo-centered.jpeg)
+  ![Logo now centered](assets/images/logo-centered.jpeg)
 
 - ### Navigation
 
