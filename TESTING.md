@@ -60,6 +60,8 @@ The purpose of this document is to identify key testing stages and instances whe
    - ![content off center](assets/images/tech-center-bug.jpeg)
    - used dev tools to check and the margin used to create balance in full screen is what throws it off
    - Added media query to remove margin on smaller screens
+   - Issue resolved and content now centered nicely
+   - ![content centered](assets/images/tech-issue-fix.jpeg)
 
 # SECTION TESTING
 
