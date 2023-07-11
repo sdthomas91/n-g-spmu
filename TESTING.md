@@ -131,6 +131,26 @@ Amended to remove heading and include inline with image for larger screens and h
 | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
 | ![Before of site on large screen](/assets/images/lg-screen-about-after.png) | ![Before of site on medium screen](/assets/images/med-screen-about-after.png) |
 
+## Services Section
+
+### Service blocks
+
+#### Desktop view
+
+- Decided on alternating side by side display for large screens and stacked view for smaller screens
+- side by side originally block colours but decided a gradient on middle element provides a more modern and elegant feel to the site
+- had to ensure text and backgrounds were contrasting correctly across each block
+
+#### Mobile view
+
+- Originally when going for stacked decided to use a light overlay with dark text for good contrast
+- Used image as background instead of stacking image and text as would be too monotonous with the element above doing the same
+- Even with overlay, the blocks were not presenting nicely and were not very reader friendly
+  - ![Light blocks](assets/images/light-blocks.png)
+- Decided to change to a dark overlay on image block, light (but not completely opaque) container for text and uniform text and "hr" elements
+  - ![Dark blocks with box](assets/images/dark-blocks.png)
+- Readability improved and screen contrast more in line with WebAIM recommendations
+
 # ELEMENT TESTING
 
 ## Buttons (outside of standard buttons)
