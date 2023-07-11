@@ -69,15 +69,27 @@ The purpose of this document is to identify key testing stages and instances whe
 
 - ### Hero Image
 
-        - Callout lays nicely on top of hero image with minimal distractions - site colours used to maintain a minimalist/clean look and feel to the website.
-        - Added a larger border radius to the jumbotron to enhance the smooth/clean edge feel to the site.
-        - Main image did not convert well across screen downsize so used CSS media query to change background image on smaller screens. Images below display before and after of smaller screen - note how the image looks better but still doesn't distract from the main content:
+1. Callout
+   - Callout lays nicely on top of hero image with minimal distractions - site colours used to maintain a minimalist/clean look and feel to the website.
+   - Added a larger border radius to the jumbotron to enhance the smooth/clean edge feel to the site.
+1. Image
+   - Main image did not convert well across screen downsize so used CSS media query to change background image on smaller screens. Images below display before and after of smaller screen - note how the image looks better but still doesn't distract from the main content:
 
-  | Large screen Before                                                     |                               Small Screen Before                               |                                                            Small Screen After |
-  | ----------------------------------------------------------------------- | :-----------------------------------------------------------------------------: | ----------------------------------------------------------------------------: |
-  | ![Before of site on large screen](/assets/images/lg-screen-hero-ss.png) | ![Before of site on Small Screen](/assets/images/sml-screen-hero-ss-before.png) | ![After of site on Small screen](/assets/images/sml-screen-hero-ss-after.png) |
+| Large screen Before                                                    |                               Small Screen Before                               |                                                           Small Screen After |
+| ---------------------------------------------------------------------- | :-----------------------------------------------------------------------------: | ---------------------------------------------------------------------------: |
+| ![Before of site on large screen](assets/images/lg-screen-hero-ss.png) | ![Before of site on Small Screen](/assets/images/sml-screen-hero-ss-before.png) | ![After of site on Small screen](assets/images/sml-screen-hero-ss-after.png) |
 
-  I also added some white space below the hero image on mobile to ensure users know that it is scrollable
+I also added some white space below the hero image on mobile to ensure users know that it is scrollable
+
+1. Fixed position image not working on iphone
+
+- Upon testing deployment I noticed that on my iPhone 14 the mobile hero image was not displaying and instead just a colour block.
+
+|                                       Mobile Image not showing |
+| -------------------------------------------------------------: |
+| ![mobile image not showing](assets/images/mobile-hero-bug.PNG) |
+
+- Research suggests that parallax scrolling does not always work on mobile displays and so will provide a fallback image without fixed attribute and see if it resolves issue.
 
 ## About Us Section
 
