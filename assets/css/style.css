@@ -68,6 +68,15 @@ p {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+.overlay--dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(85, 67, 60, 0.8);
+}
+
 .text-fine {
     font-weight: 300;
     letter-spacing: 3px;
@@ -475,6 +484,20 @@ footer {
         justify-content: center;
 
         position: relative;
+    }
+
+    /*-------- /background Images for Blocks----*/
+
+    .service-text {
+        margin: 40px 0;
+        background-color: rgba(255, 252, 250, 0.8);
+        padding: 40px 30px 50px 30px;
+        border-radius: 25px;
+    }
+
+    .service-text p {
+        margin-top: 20px;
+        padding: 0px 20px;
     }
 
 
