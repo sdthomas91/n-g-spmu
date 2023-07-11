@@ -61,6 +61,18 @@ The purpose of this document is to identify key testing stages and instances whe
 
 ## Header
 
+- ### Logo
+
+  - When resolving an issue with the hero image I also noticed the logo sits off center on mobile view.
+
+  ![Logo off center](assets/images/logo-center-issue.jpeg)
+
+  - Using chrome dev tools I identified that the logo was centering in its own element (link) but that element wouldn't center.
+
+  - added a left padding to mobile view only of 50px and issue resolved nicely
+
+  ![Logo now centered](assets/iomages/logo-centered.jpeg)
+
 - ### Navigation
 
   - Standard navigation featured left aligned menu; amended this to ensure centre alignemnt for easy viewing.
@@ -90,6 +102,12 @@ I also added some white space below the hero image on mobile to ensure users kno
 | ![mobile image not showing](assets/images/mobile-hero-bug.PNG) |
 
 - Research suggests that parallax scrolling does not always work on mobile displays and so will provide a fallback image without fixed attribute and see if it resolves issue.
+
+- Following testing, fallback image didn't work and caused page to load very slowly. Decided on this occasion to leave parallax effect on mobile screens as no fixed attribute has resolved the issue
+
+|                                               Mobile Image Resolved |
+| ------------------------------------------------------------------: |
+| ![mobile image not showing](assets/images/mobile-hero-resolve.jpeg) |
 
 ## About Us Section
 

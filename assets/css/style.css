@@ -378,6 +378,10 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+    .navbar-brand {
+        padding-left: 50px;
+    }
+
     .about-us-info {
         margin-top: 30px;
     }
