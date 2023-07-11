@@ -215,7 +215,7 @@ p {
 
 .callout-container {
     height: 100vh;
-
+    background: url(../images/clinic-desktop.png) no-repeat bottom right;
     background: url(../images/clinic-desktop.png) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
