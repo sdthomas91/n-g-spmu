@@ -114,6 +114,14 @@ p {
     border-radius: 20px;
 }
 
+/* ----------------------------- Logo Strips */
+
+
+
+.logo-block img {
+    width: 100%;
+}
+
 /* ----------------------------- Buttons */
 
 .btn--cta {
