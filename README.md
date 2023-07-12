@@ -251,6 +251,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [StackOverflow] (https://stackoverflow.com/) : For coding validation and tips on refining code. Also used for code snippets customised with my own css.
 
+- [BootStrap Pricing](https://getbootstrap.com/docs/4.0/examples/pricing/#) : Used bootstrap template for pricing structure as it provides a nice clean setup - will completely restyle but saved a lot of time on setting up the blocks
+
 ### Content
 
 - Google Bard AI was used to generate around 50% of the website copy
