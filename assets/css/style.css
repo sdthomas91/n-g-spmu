@@ -360,9 +360,7 @@ footer {
         font-size: 2rem;
     }
 
-    .lead {
-        font-size: 1rem;
-    }
+
 
     .small,
     small {
@@ -391,6 +389,10 @@ footer {
 
     .navbar-brand {
         padding-left: 50px;
+    }
+
+    .lead {
+        font-size: 1rem;
     }
 
     .about-us-info {
