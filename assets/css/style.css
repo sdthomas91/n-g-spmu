@@ -103,7 +103,7 @@ small {
     height: 5px;
     border: 0;
     background-color: #fff;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .divider-pink {
@@ -374,6 +374,11 @@ small {
     padding-bottom: 100px;
     padding-top: 80px;
     background-color: #eab29d;
+}
+
+.pricing-title hr {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .card {
