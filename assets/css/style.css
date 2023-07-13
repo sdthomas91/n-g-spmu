@@ -397,12 +397,15 @@ small {
     border-radius: 25px 25px 0 0;
 }
 
-.pricing-small {
-    font-size: 60%;
-}
 
 .x-small {
-    font-size: 40%;
+    font-size: 70%;
+    font-style: italic;
+    letter-spacing: 0.04rem;
+}
+
+.x-small strong {
+    font-size: 120%;
 }
 
 /* ----------------------------- Footer */
@@ -550,7 +553,7 @@ footer {
     }
 
 
-    /* ------------------ Pricing Cards - override bootstrap */
+    /* ------------------ Pricing Cards - override bootstrap media-query size choice */
     .card-deck {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -562,6 +565,10 @@ footer {
     }
 
     /* ------------------ Pricing Cards - override bootstrap */
+
+    .x-small {
+        font-size: 40%;
+    }
 }
 
 /* ------------------ Medium Screens */
@@ -634,6 +641,9 @@ footer {
         padding: 0 60px;
     }
 
+    .x-small {
+        font-size: 40%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
