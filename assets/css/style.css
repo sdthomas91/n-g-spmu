@@ -376,6 +376,10 @@ small {
     background-color: #eab29d;
 }
 
+.pricing-title {
+    margin-top: 25px;
+}
+
 .pricing-title hr {
     margin-top: 25px;
     margin-bottom: 50px;
