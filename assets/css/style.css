@@ -31,6 +31,9 @@ p {
     color: #55433c;
 }
 
+small {
+    font-family: 'Merriweather', serif;
+}
 
 /* ----------------------------- Colors */
 
@@ -142,6 +145,7 @@ p {
     color: #55433c;
     background-color: #eab29d;
     border-color: #eab29d;
+    box-shadow: 2px 2px 5px rgba(85, 67, 60, 0.3);
 }
 
 .btn--pink:hover,
@@ -359,7 +363,7 @@ p {
 /* ----------------------------- Pricing */
 
 .x-small {
-    font-size: 50%;
+    font-size: 40%;
 }
 
 /* ----------------------------- Footer */
