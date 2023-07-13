@@ -86,7 +86,13 @@ small {
 }
 
 .box-shadow--dark {
-    box-shadow: 2px 2px 5px (rgba85, 67, 60, .2);
+
+    box-shadow: 2px 2px 5px rgba(85, 67, 60, .2);
+}
+
+.box-shadow--lg {
+
+    box-shadow: 3px 6px 10px rgba(85, 67, 60, .25);
 }
 
 /* ----------------------------- Dividers */
@@ -149,7 +155,6 @@ small {
     color: #55433c;
     background-color: #eab29d;
     border-color: #eab29d;
-    box-shadow: 2px 2px 5px rgba(85, 67, 60, 0.3);
 }
 
 .btn--pink:hover,
@@ -267,7 +272,6 @@ small {
     background-color: rgba(255, 252, 250, 0.8);
     border-radius: 45px;
     margin-top: 50px;
-    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
 /* ----------------------------- About Us */
@@ -295,7 +299,6 @@ small {
     border-radius: 10px;
     margin-right: 10px;
     width: 100%;
-    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
 #ng-img-sml {
@@ -303,7 +306,6 @@ small {
     border-radius: 15px;
     margin: 20px 0px 25px 0px;
     width: 100%;
-    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -351,7 +353,6 @@ small {
     width: 80%;
     border-radius: 100px;
     margin: auto;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .service-text {
