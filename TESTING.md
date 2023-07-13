@@ -181,3 +181,11 @@ Amended to remove heading and include inline with image for larger screens and h
   - Utilised interaction feedback to help users know it is a clickable button
   - Font awesome up arrow used to illustrate functionality
   - 'aria-hidden="true"' used as semantic icon - text alternative span used
+
+## UX
+
+### Pricing
+
+I decided that upon reflection, for usability and in line with my user goals I would need to add a pricing section, rather than just having pricing within the services section. 
+This provides more clarity and information. 
+As there are only 3 services I have used the Bootstrap pricing template and will customise to fit with the branding and the site - as well as tweak to make it more user friendly.
