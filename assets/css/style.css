@@ -578,10 +578,13 @@ footer {
         margin-top: 50px;
     }
 
+    /* Pricing card margin */
 
 
-
-
+    .card-deck .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
 }
 

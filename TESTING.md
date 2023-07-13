@@ -20,28 +20,28 @@ The purpose of this document is to identify key testing stages and instances whe
 
 1. A new white space down the right hand side of the screen
 
-   ![White space down side of smaller screens](/assets/images/white-line-mobile.png)
+   ![White space down side of smaller screens](assets/images/white-line-mobile.png)
 
    - Used google chrome developer tools to examine each element. It became clear that the first and second div of the "Services Section" were responsible.
    - Attempted to utilise no gutters rule as this fixed the issue last time, but this time it was unsuccessful.
    - Within google chrome developer tools I noticed that the bootstrap "row" class was administering a margin right and left of -15px.
-     ![row Class issues](/assets/images/row-class-issue.png)
+     ![row Class issues](assets/images/row-class-issue.png)
    - Once removed, white space disappeared. So added rule of margin:0 to "services-container" class and issue was resolved
-     ![white space resolution](/assets/images/white-space-resolution.png)
+     ![white space resolution](assets/images/white-space-resolution.png)
 
 1. Whole first section has gone blank
 
    - On large screen the whole first section is blank/white, yet when scaled down the section returns to normal.
 
-   | Desktop view (larger than 992px)                             |              Smaller (less than 992px) view               |
-   | ------------------------------------------------------------ | :-------------------------------------------------------: |
-   | ![>992px view of issue](/assets/images/greater-than-992.png) | ![>992px view of issue](/assets/images/less-than-992.png) |
+   | Desktop view (larger than 992px)                            |              Smaller (less than 992px) view              |
+   | ----------------------------------------------------------- | :------------------------------------------------------: |
+   | ![>992px view of issue](assets/images/greater-than-992.png) | ![>992px view of issue](assets/images/less-than-992.png) |
 
    - Issue seems to be with overlays for blocks in services section. They had all stacked at 100%.
 
    - Set overlay--light on blocks to only show on md screens and below and issue resolved itself
 
-   ![resolved white block issue](/assets/images/resolved-whiteout.png)
+   ![resolved white block issue](assets/images/resolved-whiteout.png)
 
 1. Images not showing on deployment
 
@@ -66,11 +66,26 @@ The purpose of this document is to identify key testing stages and instances whe
    - ![content centered](assets/images/tech-issue-fix.jpeg)
 
 1. Nav link broken
+
    - Services link stopped working and lead to a 404 error
    - checked in dev tools and noticed file path had lost an "i" so it was reading ndex.html#services.
    - correct filepath spelling and link no longer led to a 404 but instead was reloading to top of the page
    - double checked again and I had used "##" instead of single hash for identified
    - Corrected syntax and now works fine
+
+1. Pricing Cards not properly responsive
+
+   - On desktop view cards look great, side by side. Mobile view the cards look great stacked. The in between would be okay, but the sizing is thrown off and the CTA buttons all misalign and spill off the card.
+
+   | Desktop view (larger than 992px)                      |                Tablet view (less than 992px)                 |
+   | ----------------------------------------------------- | :----------------------------------------------------------: |
+   | ![>992px view of issue](assets/images/pricing-lg.png) | ![>992px view of issue](assets/images/pricing-md-before.png) |
+
+   - Dev tools used to identify margins being implemented until min-width if 576px. This won't work for smaller tablets.
+   - Removed margins using an overriding media query for max screen width of 992px.
+   - Issue resolved and now displays nicely across different screen sizes.
+
+   Resolved ![Resolved tablet view](assets/images/pricing-resolved.png)
 
 # SECTION TESTING
 
@@ -186,6 +201,6 @@ Amended to remove heading and include inline with image for larger screens and h
 
 ### Pricing
 
-I decided that upon reflection, for usability and in line with my user goals I would need to add a pricing section, rather than just having pricing within the services section. 
-This provides more clarity and information. 
+I decided that upon reflection, for usability and in line with my user goals I would need to add a pricing section, rather than just having pricing within the services section.
+This provides more clarity and information.
 As there are only 3 services I have used the Bootstrap pricing template and will customise to fit with the branding and the site - as well as tweak to make it more user friendly.
