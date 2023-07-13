@@ -374,15 +374,19 @@ small {
 
 .card {
     border: none;
+    background: none;
+    border-radius: 25px;
 }
 
 .pricing-card {
     border: 1px solid rgba(85, 67, 60, .2);
     border-radius: 0 0 25px 25px;
+    background-color: #fffcfa;
 }
 
 .card-header {
     border: 1px solid rgba(85, 67, 60, .2);
+    background-color: rgba(255, 252, 250, 0.7);
 }
 
 .card-header:first-child {
