@@ -85,6 +85,10 @@ small {
     letter-spacing: 3px;
 }
 
+.box-shadow--dark {
+    box-shadow: 2px 2px 5px (rgba85, 67, 60, .2);
+}
+
 /* ----------------------------- Dividers */
 
 
@@ -361,6 +365,12 @@ small {
 }
 
 /* ----------------------------- Pricing */
+#pricing {
+    padding-bottom: 75px;
+    padding-top: 50px;
+    background-color: #eab29d;
+}
+
 .card {
     border: none;
 }
@@ -375,11 +385,8 @@ small {
 }
 
 .card-header:first-child {
-
     border-radius: 25px 25px 0 0;
 }
-
-
 
 .x-small {
     font-size: 40%;
@@ -529,6 +536,19 @@ footer {
         padding: 0px 20px;
     }
 
+
+    /* ------------------ Pricing Cards - override bootstrap */
+    .card-deck {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    /* ------------------ Pricing Cards - override bootstrap */
 }
 
 /* ------------------ Medium Screens */
@@ -557,6 +577,7 @@ footer {
 
 
 
+
 }
 
 
@@ -571,6 +592,8 @@ footer {
     .logo-block img {
         width: 70%;
     }
+
+
 }
 
 @media screen and (min-width: 993px) {
