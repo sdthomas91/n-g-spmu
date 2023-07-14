@@ -206,6 +206,12 @@ This provides more clarity and information.
 As there are only 3 services I have used the Bootstrap pricing template and will customise to fit with the branding and the site - as well as tweak to make it more user friendly.
 
 1. Trialled an envato tutorial for frosted glass effect - I thought it might be a nice touch. Once implemented it didn't look as aesthetically pleasing or as readable - screenshot attached.
-    ![Frosted glass effect](assets/images/frosted-glass-block)
-    - Didn't like the end result - Will include code in comments in original HTML for reference. Used CSS guidance but HTML was constructed largely independently with some bootstrap taken from existing structure.
+   ![Frosted glass effect](assets/images/frosted-glass-block)
 
+   - Didn't like the end result - Will include code in comments in original HTML for reference. Used CSS guidance but HTML was constructed largely independently with some bootstrap taken from existing structure.
+
+1. Anchor links / tags
+   - Wanted pricing to be accessible for relevant service at the click of a button. Added some basic text links that link to each service.
+   - Upon testing, anchor links work well, but not on medium or larger screens - this is because they don't need their own anchor tags.
+   - Tried using bootstrap display rules to present different links depending on screen size - this allowd me to link to the pricing section as whole on larger screens, and to each individual price for each individual service on smaller screens when the blocks stack.
+   - Works nicely, didn't need separate links for lip pricing as when stacked, the pricing anchor link works as a nice landing point anyway.
