@@ -204,3 +204,8 @@ Amended to remove heading and include inline with image for larger screens and h
 I decided that upon reflection, for usability and in line with my user goals I would need to add a pricing section, rather than just having pricing within the services section.
 This provides more clarity and information.
 As there are only 3 services I have used the Bootstrap pricing template and will customise to fit with the branding and the site - as well as tweak to make it more user friendly.
+
+1. Trialled an envato tutorial for frosted glass effect - I thought it might be a nice touch. Once implemented it didn't look as aesthetically pleasing or as readable - screenshot attached.
+    ![Frosted glass effect](assets/images/frosted-glass-block)
+    - Didn't like the end result - Will include code in comments in original HTML for reference. Used CSS guidance but HTML was constructed largely independently with some bootstrap taken from existing structure.
+
