@@ -37,8 +37,15 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="index.html#home">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html#about">About</a></li>
-
-                    <li class="nav-item mr-2"><a class="nav-link" href="index.html#services">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html#services" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html#benefits">Benefits of SPMU</a>
+                        </div>
+                    </li>
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="">Gallery</a></li>
                     <li class="nav-item dropdown">
@@ -306,7 +313,7 @@
     <!--/pricing Section-->
 
     <!-- Benefits Section -->
-    <section class="benefits-container container-fluid">
+    <section id="benefits" class="benefits-container container-fluid">
         <div class="row container-fluid text-center text-uppercase">
             <h1 class="col-12 benefits-title">Benefits of SPMU</h1>
         </div>
