@@ -191,6 +191,7 @@ Amended to remove heading and include inline with image for larger screens and h
   - Upon styling I decided I wanted to use a the brand pink as the link colour. However, this did not do well in WebAIM contrast checker
     ![WebAIM Contrast issue](assets/images/web-aim-pricing)
   - Decided to change link to brand dark colour and still use the darker pink as the hover colour to provide users with some interaction feedback.
+  - Tried pink as hover color; works okay on the light blocks, however as the middle block on desktop is pink background it gets lost so interaction feedback fails. Provided additional class selector in order to provide seprate hover pseudo properties for the middle block on desktop view and now presents nicely.s
 
 # ELEMENT TESTING
 

@@ -99,9 +99,19 @@ small {
 .dark-link:active:focus {
 
     color: #eab29d;
+    font-weight: 600;
 }
 
+.bold-hover:hover,
+.bold-hover:active,
+.bold-hover:focus,
+.bold-hover:active:focus {
+    color: #55433c;
+}
 
+.dark-link i {
+    margin-left: 10px;
+}
 
 /* ----------------------------- Dividers */
 
