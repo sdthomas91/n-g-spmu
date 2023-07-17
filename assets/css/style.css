@@ -525,11 +525,15 @@ small {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0px;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 0 25px;
 }
 
 #gal-content img {
     width: 100%;
+    padding-bottom: 15px;
+    border-radius: 25px;
 }
 
 /* ----------------------------- Footer */
@@ -543,32 +547,39 @@ footer {
 /* ----------------------------- Media-Queries */
 
 
-/* ------------------ XXS Screens */
-@media screen and (max-width: 417px) {
-    .jumbotron-header {
-        font-size: 2rem;
+/* ------------------ Medium Screens */
+
+@media screen and (max-width: 992px) {
+
+    .about-us-info>p {
+        font-size: 0.9rem;
+        margin-top: 28px;
+        line-height: 1.3rem;
     }
 
-
-
-    .small,
-    small {
-        font-size: 60%;
-    }
-}
-
-
-/* ------------------ XS Screens */
-@media screen and (max-width: 576px) {
-
-
-    .jumbotron {
-        margin-top: 150px;
-        max-width: 80vw;
-        padding: 40px;
+    .about-us-info>h2 {
+        font-size: 28px;
     }
 
+    .about-us-info>h4 {
+        font-size: 20px;
+    }
 
+    .service-img {
+        margin-top: 50px;
+    }
+
+    /* Pricing card margin */
+
+
+    .card-deck .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #gal-content {
+        column-count: 3;
+    }
 
 }
 
@@ -693,41 +704,41 @@ footer {
     .x-small {
         font-size: 40%;
     }
-}
 
-/* ------------------ Medium Screens */
-
-@media screen and (max-width: 992px) {
-
-    .about-us-info>p {
-        font-size: 0.9rem;
-        margin-top: 28px;
-        line-height: 1.3rem;
-    }
-
-    .about-us-info>h2 {
-        font-size: 28px;
-    }
-
-    .about-us-info>h4 {
-        font-size: 20px;
-    }
-
-    .service-img {
-        margin-top: 50px;
-    }
-
-    /* Pricing card margin */
-
-
-    .card-deck .card {
-        margin-left: 0px;
-        margin-right: 0px;
+    #gal-content {
+        column-count: 2;
     }
 
 }
 
+/* ------------------ XXS Screens */
+@media screen and (max-width: 417px) {
+    .jumbotron-header {
+        font-size: 2rem;
+    }
 
+
+
+    .small,
+    small {
+        font-size: 60%;
+    }
+}
+
+
+/* ------------------ XS Screens */
+@media screen and (max-width: 576px) {
+
+
+    .jumbotron {
+        margin-top: 150px;
+        max-width: 80vw;
+        padding: 40px;
+    }
+
+
+
+}
 
 /*-------------------------Min-Width Media Queries */
 @media screen and (min-width: 768px) {
