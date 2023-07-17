@@ -242,12 +242,20 @@ small {
 }
 
 .dropdown-menu {
-    border: 1px solid #eab29d;
-    border-radius: 15px;
+    background-color: #fffcfa;
+    border: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px
+}
+
+.dropdown-item {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-item:hover {
-    background-color: #f8e4dc;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.9);
+
 }
 
 .navbar-light .navbar-toggler {
