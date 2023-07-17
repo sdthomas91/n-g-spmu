@@ -223,3 +223,15 @@ As there are only 3 services I have used the Bootstrap pricing template and will
    - Upon testing, anchor links work well, but not on medium or larger screens - this is because they don't need their own anchor tags.
    - Tried using bootstrap display rules to present different links depending on screen size - this allowd me to link to the pricing section as whole on larger screens, and to each individual price for each individual service on smaller screens when the blocks stack.
    - Works nicely, didn't need separate links for lip pricing as when stacked, the pricing anchor link works as a nice landing point anyway.
+
+### Benefits
+
+For this element I wanted to provide some icons that would evoke emotion and interaction. 
+-   Using font awesome and some custom css I wanted to provide a backdrop for the icon to make it more eyecatching and to tie in with the theme
+    - Initially I used a solid brand #eab29d as a circular backdrop but it all looked too flat and heavy with the dark icon and the pink background
+    - Added a soft box-shadow to the circle to give depth and added a gradient to the background to tie in with the rest of the site
+    ![Gradient backdrop](assets/images/benefits-gradient.png)
+    - Used css to ensure maximum compatability, but provided a fallback colour in case the browser cannot handle gradients
+    ![Solid backdrop](assets/images/benefits-solid.png)
+    - Did trial no background colour, and whilst I liked the effect of a raised/frosted glass coin, it didn't tie in well with the rest of the site branding and colours. It also felt a little empty and not very eye catching.
+    ![No backdrop](assets/images/benefits-none.png)
