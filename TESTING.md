@@ -226,12 +226,31 @@ As there are only 3 services I have used the Bootstrap pricing template and will
 
 ### Benefits
 
-For this element I wanted to provide some icons that would evoke emotion and interaction. 
--   Using font awesome and some custom css I wanted to provide a backdrop for the icon to make it more eyecatching and to tie in with the theme
-    - Initially I used a solid brand #eab29d as a circular backdrop but it all looked too flat and heavy with the dark icon and the pink background
-    - Added a soft box-shadow to the circle to give depth and added a gradient to the background to tie in with the rest of the site
+For this element I wanted to provide some icons that would evoke emotion and interaction.
+
+- Using font awesome and some custom css I wanted to provide a backdrop for the icon to make it more eyecatching and to tie in with the theme
+  - Initially I used a solid brand #eab29d as a circular backdrop but it all looked too flat and heavy with the dark icon and the pink background
+  - Added a soft box-shadow to the circle to give depth and added a gradient to the background to tie in with the rest of the site
     ![Gradient backdrop](assets/images/benefits-gradient.png)
-    - Used css to ensure maximum compatability, but provided a fallback colour in case the browser cannot handle gradients
+  - Used css to ensure maximum compatability, but provided a fallback colour in case the browser cannot handle gradients
     ![Solid backdrop](assets/images/benefits-solid.png)
-    - Did trial no background colour, and whilst I liked the effect of a raised/frosted glass coin, it didn't tie in well with the rest of the site branding and colours. It also felt a little empty and not very eye catching.
+  - Did trial no background colour, and whilst I liked the effect of a raised/frosted glass coin, it didn't tie in well with the rest of the site branding and colours. It also felt a little empty and not very eye catching.
     ![No backdrop](assets/images/benefits-none.png)
+
+### Gallery
+
+#### Format
+
+- Using knowledge gained from the Love Running module of the course I implemented a column based gallery.
+- 8 images on a 4 column count spread nicely across the desktop
+  ![Gallery Desktop](assets/images/gallery-desktop.png)
+- However, on a tablet/medium screen it didn't work so well, the images were too small - so I implemented a media query for medium screens to render a 3 column count. This did also mean I needed to add an extra image to fill the 3rd row. (I have highlighted the element that contains the bootstrap to hide the 9th image on larger screens)
+  | Medium Before | Medium After |
+  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+  | ![Before of gallery on medium screen](/assets/images/gallery-medium.png) | ![After of site on medium screen](/assets/images/gallery-med-after.png) |
+- On mobile screens, an even number of images was still okay as I rendered it down to a 2 column count. The issue here was there were too many images. I wanted a more user friendly display.
+- I opted to hide half the images and have a View All button to open a modal that presents a carousel for all 9 images.
+  | Mobile Before | Mobile After |
+  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+  | ![Before of gallery on medium screen](/assets/images/gallery-mobile.png) | ![After of site on medium screen](/assets/images/gallery-mobile-after.png) |
+- As can be seen, it tidies the screen up and doesn't overwhelm the user with too much imagery.
