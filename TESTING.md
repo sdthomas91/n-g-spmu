@@ -185,6 +185,13 @@ Amended to remove heading and include inline with image for larger screens and h
 
 - Using dev tools seeing different tablet views I decided that the tablet view should replicate more the desktop thant the mobile view. Elements were too wide and the aesthetic was off. Tested separtately on iPad and displayed better - landscape view is more like destop and portrait view more like mobile.
 
+### See Pricing Links
+
+- Decided to add in a link to each services corresponding pricing to enhance user navigation and make it as seamless as possible.
+  - Upon styling I decided I wanted to use a the brand pink as the link colour. However, this did not do well in WebAIM contrast checker
+    ![WebAIM Contrast issue](assets/images/web-aim-pricing)
+  - Decided to change link to brand dark colour and still use the darker pink as the hover colour to provide users with some interaction feedback.
+
 # ELEMENT TESTING
 
 ## Buttons (outside of standard buttons)
