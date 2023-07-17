@@ -78,9 +78,13 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 ### Future Features
 
 - Features to be implemented that do not fall within the scope of this project:
-    - Online booking option - for now it will be a contact form
-    - Sign up/Register capabilities that allow users to create an account for easier future use
-    - Interactive feedback widget that allows clients to view and leave feedback directly from the site
+
+  - Online booking option - for now it will be a contact form
+  - Sign up/Register capabilities that allow users to create an account for easier future use
+  - Interactive feedback widget that allows clients to view and leave feedback directly from the site
+
+- Features to be added that are outside of the timeframe for this project
+  - Review carousel - to fulfil user goal of viewing reviews to build trust. For now, will link to socials to show results and build trust as well as including the gallery to show work/results.
 
 ## Technologies Used
 
