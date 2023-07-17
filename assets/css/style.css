@@ -459,11 +459,7 @@ small {
 
 /* Code found online (https: //www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) to assist with vertical centering and aligning of benefits icons */
 .benefits-blocks i {
-    /* display: block;
-    color: #55433c;
-    font-size: 200%;
-    position: relative;
-    padding-top: 15px; */
+
     display: table-cell;
     vertical-align: middle;
     height: 120px;
@@ -474,25 +470,22 @@ small {
 }
 
 .benefits-icon-holder {
-    background: #eab29d;
+    background: rgb(255, 252, 250);
+    background: -moz-radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
+    background: radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffcfa", endColorstr="#eab29d", GradientType=1);
     border-radius: 50%;
-    color: black;
+    color: #55433c;
     display: table;
     height: 120px;
 
     width: 120px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 180%;
     margin: auto;
-    /* width: 100px;
-    display: block;
-    height: 100px;
-    background-color: #eab29d;
-    border-radius: 50%;
-    position: relative;
-    text-align: center;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(85, 67, 60, 0.4); */
+    margin-bottom: 30px;
+
 }
 
 /* ----------------------------- Footer */
