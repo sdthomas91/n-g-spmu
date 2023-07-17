@@ -793,6 +793,10 @@ footer {
     .x-small {
         font-size: 40%;
     }
+
+    #gal-content {
+        padding: 0 100px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
