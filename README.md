@@ -75,6 +75,13 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 
 - Back to top button allows quick navigation of single scroll page
 
+### Future Features
+
+- Features to be implemented that do not fall within the scope of this project:
+    - Online booking option - for now it will be a contact form
+    - Sign up/Register capabilities that allow users to create an account for easier future use
+    - Interactive feedback widget that allows clients to view and leave feedback directly from the site
+
 ## Technologies Used
 
 ### Languages Used
