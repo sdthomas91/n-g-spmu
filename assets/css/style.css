@@ -1,10 +1,4 @@
-/* ----------------------------- Font Import */
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 /* ----------------------------- Global Styles */
-
 
 * {
     box-sizing: border-box;
@@ -93,6 +87,18 @@ small {
 .box-shadow--lg {
 
     box-shadow: 3px 6px 10px rgba(85, 67, 60, .25);
+}
+
+.dark-link {
+    color: #55433c;
+}
+
+.dark-link:hover,
+.dark-link:active,
+.dark-link:focus,
+.dark-link:active:focus {
+
+    color: #eab29d;
 }
 
 /* ----------------------------- Dividers */
@@ -664,4 +670,3 @@ footer {
         margin-top: 120px;
     }
 }
-
