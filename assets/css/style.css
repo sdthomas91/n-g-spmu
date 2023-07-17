@@ -37,8 +37,13 @@ small {
 }
 
 .services-block--pink {
-    background: #eab29d;
+    background: rgb(234,
+            178,
+            157);
+    background: -moz-linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
     background: linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffcfa", endColorstr="#fffcfa", GradientType=1);
 }
 
 
@@ -315,7 +320,10 @@ small {
 
 .tech-about {
     background: rgb(234, 178, 157);
-    background: linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 255, 255, 1) 88%);
+    background: -moz-linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 252, 250, 1) 88%);
+    background: -webkit-linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 252, 250, 1) 88%);
+    background: linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 252, 250, 1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eab29d", endColorstr="#fffcfa", GradientType=1);
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -470,7 +478,9 @@ small {
 }
 
 .benefits-icon-holder {
-    background: rgb(255, 252, 250);
+    background: rgb(234,
+            178,
+            157);
     background: -moz-radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
     background: -webkit-radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
     background: radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
