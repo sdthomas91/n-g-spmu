@@ -209,6 +209,15 @@ small {
     margin-bottom: 20px;
 }
 
+.btn--modal {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn--modal i {
+    margin-left: 10px;
+}
+
 /* ----------------------------- Back to Top */
 
 
@@ -528,6 +537,7 @@ small {
     column-gap: 15px;
     row-gap: 15px;
     padding: 0 25px;
+    margin-top: 45px;
 }
 
 #gal-content img {
