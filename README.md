@@ -253,6 +253,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [BootStrap Pricing](https://getbootstrap.com/docs/4.0/examples/pricing/#) : Used bootstrap template for pricing structure as it provides a nice clean setup - will completely restyle but saved a lot of time on setting up the blocks
 
+- [Sitepoint](https://www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) : thread found on sitepoint helped to refresh how to center vertically and horizontally
+
 ### Content
 
 - Google Bard AI was used to generate around 50% of the website copy

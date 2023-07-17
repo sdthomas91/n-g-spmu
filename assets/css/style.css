@@ -449,6 +449,52 @@ small {
     padding: 5px;
 }
 
+
+/* ----------------------------- Benefits */
+
+.benefits-title {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* Code found online (https: //www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) to assist with vertical centering and aligning of benefits icons */
+.benefits-blocks i {
+    /* display: block;
+    color: #55433c;
+    font-size: 200%;
+    position: relative;
+    padding-top: 15px; */
+    display: table-cell;
+    vertical-align: middle;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+.benefits-icon-holder {
+    background: #eab29d;
+    border-radius: 50%;
+    color: black;
+    display: table;
+    height: 120px;
+
+    width: 120px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: auto;
+    /* width: 100px;
+    display: block;
+    height: 100px;
+    background-color: #eab29d;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(85, 67, 60, 0.4); */
+}
+
 /* ----------------------------- Footer */
 
 footer {
