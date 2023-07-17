@@ -16,6 +16,673 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: #55433c;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #55433c;
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #55433c;
+}
+
+small {
+    font-family: 'Merriweather', serif;
+}
+
+/* ----------------------------- Colors */
+
+.services-block--white {
+    background-color: #fffcfa;
+}
+
+.services-block--pink {
+    background: #eab29d;
+    background: linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
+}
+
+
+/* ----------------------------- Global Styles */
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay--light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay--dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(85, 67, 60, 0.8);
+}
+
+.text-fine {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.box-shadow--dark {
+
+    box-shadow: 2px 2px 5px rgba(85, 67, 60, .2);
+}
+
+.box-shadow--lg {
+
+    box-shadow: 3px 6px 10px rgba(85, 67, 60, .25);
+}
+
+/* ----------------------------- Dividers */
+
+
+.divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.divider-pink {
+    background-color: #eab29d;
+}
+
+.divider--dark {
+    background-color: #55433c;
+
+}
+
+.divider--light {
+    background-color: #fffcfa;
+
+}
+
+.divider-small {
+    width: 45px;
+    height: 5px;
+    border: 0;
+    border-radius: 20px;
+}
+
+/* ----------------------------- Logo Strips */
+
+.logo-strip {
+    padding: 0;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.logo-block {
+    text-align: center;
+}
+
+.logo-block img {
+    width: 80%;
+}
+
+/* ----------------------------- Buttons */
+
+.btn--cta {
+    font-weight: 500;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.btn--pink {
+    color: #55433c;
+    background-color: #eab29d;
+    border-color: #eab29d;
+}
+
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
+    background-color: #e6a288;
+    border-color: #e6a288;
+    color: #55433c;
+}
+
+.btn-lg {
+    margin-bottom: 10px;
+}
+
+.about--btn {
+    margin-top: 40px;
+}
+
+.btn--pricing {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------- Back to Top */
+
+
+.btt--btn {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #fffcfa;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.45);
+    color: #55433c;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+/*-- Back to top interaction feedback --*/
+
+.btt--btn:hover {
+    background-color: #55433c;
+    color: #fffcfa;
+}
+
+/*-- Styling font-awesome icon inside back to top button --*/
+.btt--btn>i {
+    padding: 0 5px;
+}
+
+/* ----------------------------- Navigation */
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.nav-logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.dropdown-menu {
+    border: 1px solid #eab29d;
+    border-radius: 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8e4dc;
+}
+
+.navbar-light .navbar-toggler {
+    color: #55433c;
+    border: 0;
+}
+
+.navbar-container {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(255, 252, 250, 0.95);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ----------------------------- Callout */
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/clinic-desktop.png) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* ----------------------------- Jumbotron */
+
+.jumbotron {
+    background-color: rgba(255, 252, 250, 0.8);
+    border-radius: 45px;
+    margin-top: 50px;
+}
+
+/* ----------------------------- About Us */
+
+.about-us-title {
+    margin-bottom: 35px;
+
+}
+
+.tech-about {
+    background: rgb(234, 178, 157);
+    background: linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 255, 255, 1) 88%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.technician-container {
+    margin: 10px 15px;
+    position: relative;
+}
+
+#ng-img {
+
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+#ng-img-sml {
+
+    border-radius: 15px;
+    margin: 20px 0px 25px 0px;
+    width: 100%;
+}
+
+
+.about-us-info>p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #55433c;
+    font-size: 1rem;
+    margin-top: 30px;
+    line-height: 1.8rem;
+}
+
+.about-us-info i {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #55433c;
+}
+
+/* ----------------------------- Services */
+
+.services-container {
+    padding: 0;
+    margin: 0;
+}
+
+.services-title {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+
+
+.services-block {
+    padding: 25px 40px;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.service-img {
+    width: 80%;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.service-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service-text p {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+/* ----------------------------- Pricing */
+#pricing {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    background-color: #eab29d;
+}
+
+.pricing-title {
+    margin-top: 25px;
+}
+
+.pricing-title hr {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    background: none;
+    border-radius: 25px;
+}
+
+.pricing-card {
+    border: 1px solid rgba(85, 67, 60, .2);
+    border-radius: 0 0 25px 25px;
+    background-color: #fffcfa;
+}
+
+.card-header {
+    border: 1px solid rgba(85, 67, 60, .2);
+    background-color: rgba(255, 252, 250, 0.7);
+}
+
+.card-header:first-child {
+    border-radius: 25px 25px 0 0;
+}
+
+
+.x-small {
+    font-size: 70%;
+    font-style: italic;
+    letter-spacing: 0.04rem;
+}
+
+.x-small strong {
+    font-size: 120%;
+}
+
+.my-0 {
+    padding: 5px;
+}
+
+/* ----------------------------- Footer */
+
+footer {
+    background-color: #fafafa;
+}
+
+.footer-container {}
+
+/* ----------------------------- Media-Queries */
+
+
+/* ------------------ XXS Screens */
+@media screen and (max-width: 417px) {
+    .jumbotron-header {
+        font-size: 2rem;
+    }
+
+
+
+    .small,
+    small {
+        font-size: 60%;
+    }
+}
+
+
+/* ------------------ XS Screens */
+@media screen and (max-width: 576px) {
+
+
+    .jumbotron {
+        margin-top: 150px;
+        max-width: 80vw;
+        padding: 40px;
+    }
+
+
+
+}
+
+/* ------------------ Small Screens */
+
+@media screen and (max-width: 768px) {
+
+    .navbar-brand {
+        padding-left: 50px;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .about-us-info {
+        margin-top: 30px;
+    }
+
+    .callout-container {
+        height: 90vh;
+        background: url(../images/clinic-mobile.jpg) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .jumbotron {
+        margin-top: 150px;
+        max-width: 80vw;
+        padding: 40px;
+    }
+
+    .tech-about {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    .technician-container {
+        margin: 10px 0;
+    }
+
+    /* ------Background Images for Blocks */
+    .block--blading {
+        background: url(../images/microblading.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .block--liner {
+        background: url(../images/eye-liner.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .block--blush {
+        background: url(../images/lip-blush.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+
+    /*-------- /background Images for Blocks----*/
+
+    .service-text {
+        margin: 40px 0;
+        background-color: rgba(255, 252, 250, 0.8);
+        padding: 40px 30px 50px 30px;
+        border-radius: 25px;
+    }
+
+    .service-text p {
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+
+    /* ------------------ Pricing Cards - override bootstrap media-query size choice */
+    .card-deck {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    /* ------------------ Pricing Cards - override bootstrap */
+
+    .x-small {
+        font-size: 40%;
+    }
+}
+
+/* ------------------ Medium Screens */
+
+@media screen and (max-width: 992px) {
+
+    .about-us-info>p {
+        font-size: 0.9rem;
+        margin-top: 28px;
+        line-height: 1.3rem;
+    }
+
+    .about-us-info>h2 {
+        font-size: 28px;
+    }
+
+    .about-us-info>h4 {
+        font-size: 20px;
+    }
+
+    .service-img {
+        margin-top: 50px;
+    }
+
+    /* Pricing card margin */
+
+
+    .card-deck .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+
+
+/*-------------------------Min-Width Media Queries */
+@media screen and (min-width: 768px) {
+    .about-us-info {
+        padding-top: 60px;
+        margin-left: 30px;
+    }
+
+    .logo-block img {
+        width: 70%;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) {
+    .about-us-info>p {
+        font-size: 1rem;
+        margin-top: 28px;
+        line-height: 1.4rem;
+
+    }
+
+    .about-us-info {
+        margin-left: 50px;
+        padding-top: 80px;
+    }
+
+    .services-title h1 {
+        font-size: 300%;
+    }
+
+    .service-text p {
+        margin-top: 20px;
+        padding: 0 60px;
+    }
+
+    .x-small {
+        font-size: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .service-text {
+        margin-top: 120px;
+    }
+}
+
+/* ----------------------------- Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ----------------------------- Global Styles */
+
+
+* {
+    box-sizing: border-box;
+
+    /* Smooth scroll enabled for back to top button */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #55433c;
     background-color: #fffcfa;
 }
 
@@ -817,5 +1484,778 @@ footer {
 
     #gal-content {
         padding: 0 100px;
+    }
+}
+
+/* ----------------------------- Global Styles */
+
+* {
+    box-sizing: border-box;
+
+    /* Smooth scroll enabled for back to top button */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #55433c;
+    background-color: #fffcfa;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #55433c;
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #55433c;
+}
+
+small {
+    font-family: 'Merriweather', serif;
+}
+
+/* ----------------------------- Colors */
+
+.services-block--white {
+    background-color: #fffcfa;
+}
+
+.services-block--pink {
+    background: rgb(234,
+            178,
+            157);
+    background: -moz-linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
+    background: linear-gradient(180deg, rgba(255, 252, 250, 1) 5%, rgba(234, 178, 157, 1) 25%, rgba(234, 178, 157, 1) 50%, rgba(234, 178, 157, 1) 75%, rgba(255, 252, 250, 1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffcfa", endColorstr="#fffcfa", GradientType=1);
+}
+
+
+/* ----------------------------- Global Styles */
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay--light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay--dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(85, 67, 60, 0.8);
+}
+
+.text-fine {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.box-shadow--dark {
+
+    box-shadow: 2px 2px 5px rgba(85, 67, 60, .2);
+}
+
+.box-shadow--lg {
+
+    box-shadow: 3px 6px 10px rgba(85, 67, 60, .25);
+}
+
+.dark-link {
+    color: #55433c;
+    font-size: 120%;
+}
+
+.dark-link:hover,
+.dark-link:active,
+.dark-link:focus,
+.dark-link:active:focus {
+
+    color: #eab29d;
+    font-weight: 600;
+}
+
+.bold-hover:hover,
+.bold-hover:active,
+.bold-hover:focus,
+.bold-hover:active:focus {
+    color: #55433c;
+}
+
+.dark-link i {
+    margin-left: 10px;
+}
+
+/* ----------------------------- Dividers */
+
+
+.divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.divider-pink {
+    background-color: #eab29d;
+}
+
+.divider--dark {
+    background-color: #55433c;
+
+}
+
+.divider--light {
+    background-color: #fffcfa;
+
+}
+
+.divider-small {
+    width: 45px;
+    height: 5px;
+    border: 0;
+    border-radius: 20px;
+}
+
+/* ----------------------------- Logo Strips */
+
+.logo-strip {
+    padding: 0;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.logo-block {
+    text-align: center;
+}
+
+.logo-block img {
+    width: 80%;
+}
+
+/* ----------------------------- Buttons */
+
+.btn--cta {
+    font-weight: 500;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.btn--pink {
+    color: #55433c;
+    background-color: #eab29d;
+    border-color: #eab29d;
+}
+
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
+    background-color: #e6a288;
+    border-color: #e6a288;
+    color: #55433c;
+}
+
+.btn-lg {
+    margin-bottom: 10px;
+}
+
+.about--btn {
+    margin-top: 40px;
+}
+
+.btn--pricing {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------- Back to Top */
+
+
+.btt--btn {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #fffcfa;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.45);
+    color: #55433c;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+/*-- Back to top interaction feedback --*/
+
+.btt--btn:hover {
+    background-color: #55433c;
+    color: #fffcfa;
+}
+
+/*-- Styling font-awesome icon inside back to top button --*/
+.btt--btn>i {
+    padding: 0 5px;
+}
+
+/* ----------------------------- Navigation */
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.nav-logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.dropdown-menu {
+    background-color: #fffcfa;
+    border: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px
+}
+
+.dropdown-item {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:hover {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+
+.navbar-light .navbar-toggler {
+    color: #55433c;
+    border: 0;
+}
+
+.navbar-container {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(255, 252, 250, 0.95);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ----------------------------- Callout */
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/clinic-desktop.png) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* ----------------------------- Jumbotron */
+
+.jumbotron {
+    background-color: rgba(255, 252, 250, 0.8);
+    border-radius: 45px;
+    margin-top: 50px;
+}
+
+/* ----------------------------- About Us */
+
+.about-us-title {
+    margin-bottom: 35px;
+
+}
+
+.tech-about {
+    background: rgb(234, 178, 157);
+    background: -moz-linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 252, 250, 1) 88%);
+    background: -webkit-linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 252, 250, 1) 88%);
+    background: linear-gradient(180deg, rgba(234, 178, 157, 1) 0%, rgba(255, 252, 250, 1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eab29d", endColorstr="#fffcfa", GradientType=1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.technician-container {
+    margin: 10px 15px;
+    position: relative;
+}
+
+#ng-img {
+
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+#ng-img-sml {
+
+    border-radius: 15px;
+    margin: 20px 0px 25px 0px;
+    width: 100%;
+}
+
+
+.about-us-info>p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #55433c;
+    font-size: 1rem;
+    margin-top: 30px;
+    line-height: 1.8rem;
+}
+
+.about-us-info i {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #55433c;
+}
+
+/* ----------------------------- Services */
+
+.services-container {
+    padding: 0;
+    margin: 0;
+}
+
+.services-title {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+
+
+.services-block {
+    padding: 25px 40px;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.service-img {
+    width: 80%;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.service-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service-text p {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+/* ----------------------------- Pricing */
+#pricing {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    background-color: #eab29d;
+}
+
+.pricing-title {
+    margin-top: 25px;
+}
+
+.pricing-title hr {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    background: none;
+    border-radius: 25px;
+}
+
+.pricing-card {
+    border: 1px solid rgba(85, 67, 60, .2);
+    border-radius: 0 0 25px 25px;
+    background-color: #fffcfa;
+}
+
+.card-header {
+    border: 1px solid rgba(85, 67, 60, .2);
+    background-color: rgba(255, 252, 250, 0.7);
+}
+
+.card-header:first-child {
+    border-radius: 25px 25px 0 0;
+}
+
+
+.x-small {
+    font-size: 70%;
+    font-style: italic;
+    letter-spacing: 0.04rem;
+}
+
+.x-small strong {
+    font-size: 120%;
+}
+
+.my-0 {
+    padding: 5px;
+}
+
+
+/* ----------------------------- Benefits */
+
+.benefits-title {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* Code found online (https: //www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) to assist with vertical centering and aligning of benefits icons */
+.benefits-blocks i {
+
+    display: table-cell;
+    vertical-align: middle;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+.benefits-icon-holder {
+    background: rgb(234,
+            178,
+            157);
+    background: -moz-radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
+    background: radial-gradient(circle, rgba(255, 252, 250, 1) 0%, rgba(234, 178, 157, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffcfa", endColorstr="#eab29d", GradientType=1);
+    border-radius: 50%;
+    color: #55433c;
+    display: table;
+    height: 120px;
+
+    width: 120px;
+    font-weight: bold;
+    font-size: 190%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.benefit-heading {
+    margin-bottom: 10px;
+}
+
+.benefits-blocks h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.benefits-blocks p {
+    font-size: 1rem;
+    padding: 0 15px;
+    margin-bottom: 60px;
+}
+
+/* ----------------------------- Gallery */
+
+#gal-content {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gal-content img {
+    width: 100%;
+}
+
+/* ----------------------------- Footer */
+
+footer {
+    background-color: #fafafa;
+}
+
+.footer-container {}
+
+/* ----------------------------- Media-Queries */
+
+
+/* ------------------ XXS Screens */
+@media screen and (max-width: 417px) {
+    .jumbotron-header {
+        font-size: 2rem;
+    }
+
+
+
+    .small,
+    small {
+        font-size: 60%;
+    }
+}
+
+
+/* ------------------ XS Screens */
+@media screen and (max-width: 576px) {
+
+
+    .jumbotron {
+        margin-top: 150px;
+        max-width: 80vw;
+        padding: 40px;
+    }
+
+
+
+}
+
+/* ------------------ Small Screens */
+
+@media screen and (max-width: 768px) {
+
+    .navbar-brand {
+        padding-left: 50px;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .about-us-info {
+        margin-top: 30px;
+    }
+
+    .callout-container {
+        height: 90vh;
+        background: url(../images/clinic-mobile.jpg) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .jumbotron {
+        margin-top: 150px;
+        max-width: 80vw;
+        padding: 40px;
+    }
+
+    .tech-about {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    .technician-container {
+        margin: 10px 0;
+    }
+
+    /* ------Background Images for Blocks */
+    .block--blading {
+        background: url(../images/microblading.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .block--liner {
+        background: url(../images/eye-liner.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .block--blush {
+        background: url(../images/lip-blush.png) no-repeat bottom right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+
+    /*-------- /background Images for Blocks----*/
+
+    .service-text {
+        margin: 40px 0;
+        background-color: rgba(255, 252, 250, 0.8);
+        padding: 40px 30px 50px 30px;
+        border-radius: 25px;
+    }
+
+    .service-text p {
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+
+    /* ------------------ Pricing Cards - override bootstrap media-query size choice */
+    .card-deck {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    /* ------------------ Pricing Cards - override bootstrap */
+
+    .x-small {
+        font-size: 40%;
+    }
+}
+
+/* ------------------ Medium Screens */
+
+@media screen and (max-width: 992px) {
+
+    .about-us-info>p {
+        font-size: 0.9rem;
+        margin-top: 28px;
+        line-height: 1.3rem;
+    }
+
+    .about-us-info>h2 {
+        font-size: 28px;
+    }
+
+    .about-us-info>h4 {
+        font-size: 20px;
+    }
+
+    .service-img {
+        margin-top: 50px;
+    }
+
+    /* Pricing card margin */
+
+
+    .card-deck .card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+
+
+/*-------------------------Min-Width Media Queries */
+@media screen and (min-width: 768px) {
+    .about-us-info {
+        padding-top: 60px;
+        margin-left: 30px;
+    }
+
+    .logo-block img {
+        width: 70%;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) {
+    .about-us-info>p {
+        font-size: 1rem;
+        margin-top: 28px;
+        line-height: 1.4rem;
+
+    }
+
+    .about-us-info {
+        margin-left: 50px;
+        padding-top: 80px;
+    }
+
+    .services-title h1 {
+        font-size: 300%;
+    }
+
+    .service-text p {
+        margin-top: 20px;
+        padding: 0 60px;
+    }
+
+    .x-small {
+        font-size: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .service-text {
+        margin-top: 120px;
     }
 }
