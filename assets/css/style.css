@@ -561,9 +561,17 @@ small {
 
 .contact-title {
     margin-top: 75px;
+    margin-bottom: 35px;
 
 }
 
+.contact-form {
+    padding: 0 25px;
+}
+
+.form-checkboxes {
+    margin-bottom: 15px;
+}
 
 /* ----------------------------- Footer */
 
