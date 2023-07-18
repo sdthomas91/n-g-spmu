@@ -215,7 +215,7 @@ As there are only 3 services I have used the Bootstrap pricing template and will
    - Upon testing, anchor links work well, but not on medium or larger screens - this is because they don't need their own anchor tags.
    - Tried using bootstrap display rules to present different links depending on screen size - this allowd me to link to the pricing section as whole on larger screens, and to each individual price for each individual service on smaller screens when the blocks stack.
    - Works nicely, didn't need separate links for lip pricing as when stacked, the pricing anchor link works as a nice landing point anyway.
-<h1 align="center">Nina Gazzard SPMU & Beauty</h1>
+   <h1 align="center">Nina Gazzard SPMU & Beauty</h1>
 
 [View the live project here.](https://sdthomas91.github.io/ng-spmu-milestone/)
 
@@ -475,11 +475,12 @@ For this element I wanted to provide some icons that would evoke emotion and int
 #### Modal & Carousel
 
 I wanted to implemnt a modal here so that mobile viewers could still have the opportunity to view all images without a lot of unncessary scrolling.
+
 - Used bootstrap modal popup to avoid the need for Javascript.
-- Within the modal I used a javascript Carousel - again alowing functionality without the need for JS. 
+- Within the modal I used a javascript Carousel - again alowing functionality without the need for JS.
 - The carousel worked nicely but there were a few design elements that made it difficult to use/view such as the navigation (next and previous) on the carousel being too light on most images
-- I opted to edit he svg data within the background-image url - no assistance needed with this, have worked with SVG's before. 
-    | Nav Elements Before | Nav Elements After |
+- I opted to edit he svg data within the background-image url - no assistance needed with this, have worked with SVG's before.
+  | Nav Elements Before | Nav Elements After |
   | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
   | ![Before of light nav elements](/assets/images/carousel-button-light.png) | ![After of dark nav elements](/assets/images/carousel-button-dark.png) |
 - Also increased modal footer top border and made it brand colour #eab29d with a low opacity so it was a bit softer.
