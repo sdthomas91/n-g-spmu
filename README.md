@@ -266,6 +266,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - Some Images were created or photographed by the developer
 
 #### Technician Image
+
 - Technician image on home page - <a href="https://www.freepik.com/free-photo/woman-visiting-cosmetologist-making-rejuvenation-procedures_12178265.htm#query=beautician%20in%20salon&position=3&from_view=search&track=ais">Image by senivpetro</a> on Freepik
 
 #### Services images
@@ -278,11 +279,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - Lips-1 : [Lip Image Result Lips1] (https://www.canva.com) Canva Pro - contributor @africa-images
 - Lips-2 : [Lip Result Lips2] (https://www.canva.com) Canva pro - Getty Images - Contributor puhhha
-- Brows-1 :  [Brow Result Brows1] (https://www.canva.com) Canva pro - Getty Images - Contributor puhhha
-- Brows-2 :  [Brow Result Brows2] (https://www.canva.com) Canva pro - Getty Images - Contributor puhhha
-- Brows-3 :  [Brow Result Brows3] (https://www.canva.com) Canva pro - Getty Images - Contributor CherriesJD
-- Brows-5 :  [Brow Result Brows5] (https://www.canva.com) Canva pro - Getty Images - Contributor HDesert
-
+- Brows-1 : [Brow Result Brows1] (https://www.canva.com) Canva pro - Getty Images - Contributor puhhha
+- Brows-2 : [Brow Result Brows2] (https://www.canva.com) Canva pro - Getty Images - Contributor puhhha
+- Brows-3 : [Brow Result Brows3] (https://www.canva.com) Canva pro - Getty Images - Contributor CherriesJD
+- Brows-5 : [Brow Result Brows5] (https://www.canva.com) Canva pro - Getty Images - Contributor HDesert
 
 ### Acknowledgements
 
