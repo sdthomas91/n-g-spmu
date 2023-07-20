@@ -228,7 +228,7 @@ small {
     text-decoration: none;
     cursor: pointer;
     padding: 15px;
-    border-radius: 24px;
+    border-radius: 50%;
 }
 
 /*-- Back to top interaction feedback --*/
@@ -667,7 +667,14 @@ footer {
         column-count: 3;
     }
 
+    .btt--btn {
+        border: 1px solid rgba(85, 67, 60, 0.4);
+        padding: 17px;
+    }
 
+    .btt--btn>i {
+        font-size: 1.2rem;
+    }
 
 
 }
@@ -797,8 +804,15 @@ footer {
         font-size: 40%;
     }
 
+    /* Gallery column count */
     #gal-content {
         column-count: 2;
+    }
+
+
+    /* ----------------------- Contact section ------- */
+    .form-control {
+        font-size: 0.8rem;
     }
 
     .details-col {
@@ -826,6 +840,11 @@ footer {
 
     .info-col a {
         font-size: 0.9rem;
+    }
+
+    .btt--btn {
+        right: 42%;
+        padding: 20px;
     }
 
 
