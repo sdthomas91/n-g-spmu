@@ -785,6 +785,10 @@ footer {
 
 /*-------------------------Min-Width Media Queries */
 @media screen and (min-width: 768px) {
+    .navbar-brand {
+        padding-left: 30px;
+    }
+
     .about-us-info {
         padding-top: 60px;
         margin-left: 30px;
@@ -821,6 +825,15 @@ footer {
 
     .x-small {
         font-size: 40%;
+    }
+
+
+    .navbar-brand {
+        padding-left: 50px;
+    }
+
+    .nav-book-btn {
+        padding-right: 50px;
     }
 
 
