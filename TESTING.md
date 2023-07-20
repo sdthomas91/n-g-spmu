@@ -210,19 +210,19 @@ For this element I wanted to provide some icons that would evoke emotion and int
   - Did trial no background colour, and whilst I liked the effect of a raised/frosted glass coin, it didn't tie in well with the rest of the site branding and colours. It also felt a little empty and not very eye catching.
     ![No backdrop](assets/images/benefits-none.png)
 
-##### Layout 
+##### Layout
 
 - I had noticed that when scaling down, the col-6 rule was not working for mobile view - it was cramping the information and caused a horrible aesthetics. I decided to change it to col-12 for mobiles, but keep col-6 for medium to large as it displayed much nicer than the 4 column setup used on desktops.
 
-| Mobile view before | Mobile view After |
-  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
-  | ![Before of mobile benefits](/assets/images/benefits-block-6.png) | ![After of site on medium screen](/assets/images/benefits-block-12.png) |
+| Mobile view before                                                |                            Mobile view After                            |
+| ----------------------------------------------------------------- | :---------------------------------------------------------------------: |
+| ![Before of mobile benefits](/assets/images/benefits-block-6.png) | ![After of site on medium screen](/assets/images/benefits-block-12.png) |
 
 - It was also lacking padding/margins on larger screens and was too wide compared to all other sections on the page. Provided left and right margin to tie it in with site style
 
-| Benefits section before | Benefits section After |
-  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
-  | ![Before image of benefits section on large screen](/assets/images/benefits-section-before.png) | ![After image of benefits section on large screen](/assets/images/benefits-section-after.png) |
+| Benefits section before                                                                         |                                    Benefits section After                                     |
+| ----------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------: |
+| ![Before image of benefits section on large screen](/assets/images/benefits-section-before.png) | ![After image of benefits section on large screen](/assets/images/benefits-section-after.png) |
 
 ### Gallery
 
@@ -263,10 +263,20 @@ I wanted to implemnt a modal here so that mobile viewers could still have the op
 
 - Added a back to top button - had some issues with sizing and position. Used Stack Overflow article [here] (https://stackoverflow.com/questions/68627683/scroll-up-button-without-javascript#:~:text=Simply%20make%20a%20%3Ca%20href,on%20top%20of%20the%20page.&text=The%20link%20has%20the%20style,scrolls%20to%20the%20very%20top.) to help debug.
 - Added smooth scroll to CSS to ensure a smooth experience for users
-- Used empty href in order to ensure a complete top scroll - tried "ID" anchor link but was clunky and unreliable
+- Used empty href in order to ensure a complete top scroll - trie
+  d "ID" anchor link but was clunky and unreliable
 - Utilised interaction feedback to help users know it is a clickable button
 - Font awesome up arrow used to illustrate functionality
 - 'aria-hidden="true"' used as semantic icon - text alternative span used
+
+#### Mobile view
+
+- Noticed the button became less obvious on mobile view and when it was noticeable it was overlapping other elements.
+- Decided to try centering and enlarging the button slightly for a better UX.
+  | Back to top before | Back to top after |
+  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+  | ![Mobile back to top before](/assets/images/back-to-top-mobile-before.png) | ![After of dark nav elements](/assets/images/back-to-top-mobile-after.png) |
+- Make its more obvious that it is there and is to be used I believe
 
 ## UX
 
