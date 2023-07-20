@@ -567,6 +567,9 @@ small {
 }
 
 /* ----------------------------- ContactUs */
+.contact-container {
+    margin-bottom: 50px;
+}
 
 .contact-title {
     margin-top: 75px;
@@ -838,9 +841,7 @@ footer {
 
 
     /* ----------------------- Contact section ------- */
-    .contact-container {
-        margin-bottom: 50px;
-    }
+
 
     .form-control {
         font-size: 0.8rem;
