@@ -468,8 +468,13 @@ small {
 /* ----------------------------- Benefits */
 
 .benefits-title {
+    margin: 0;
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+.benefits-blocks {
+    padding: 0 30px;
 }
 
 /* Code found online (https: //www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) to assist with vertical centering and aligning of benefits icons */
