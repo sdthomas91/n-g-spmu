@@ -105,7 +105,6 @@ small {
 .dark-link:focus,
 .dark-link:active:focus {
 
-    color: #eab29d;
     font-weight: 600;
 }
 
