@@ -627,7 +627,13 @@ footer {
     background-color: #fafafa;
 }
 
-.footer-container {}
+.footer-container {
+
+    background-color: #faefeb;
+    padding: 20px 25px 20px 25px;
+}
+
+
 
 /* ----------------------------- Media-Queries */
 
