@@ -474,7 +474,7 @@ small {
 }
 
 .benefits-blocks {
-    padding: 0 30px;
+    margin: 0 30px 0 30px;
 }
 
 /* Code found online (https: //www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) to assist with vertical centering and aligning of benefits icons */
@@ -580,6 +580,33 @@ small {
 
 .form-checkboxes {
     margin-bottom: 15px;
+}
+
+.icon-col {
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.title-col {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title {
+    display: table;
+}
+
+.info-col {
+    text-align: left;
+}
+
+.icon-col i {
+    color: #55433c;
+}
+
+.info-col a {
+    color: #55433c;
+    text-decoration: underline;
 }
 
 /* ----------------------------- Footer */
