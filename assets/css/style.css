@@ -523,6 +523,11 @@ small {
 
 /* ----------------------------- Gallery */
 
+.gallery-container {
+    margin: 0;
+    padding: 0;
+}
+
 #gal-content {
     clear: both;
     line-height: 0;
