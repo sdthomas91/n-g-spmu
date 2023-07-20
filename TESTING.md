@@ -424,6 +424,19 @@ Amended to remove heading and include inline with image for larger screens and h
 
 ## UX
 
+### Text Alignment
+
+I had originally decided to center text for aesthetic purposes. It did indeed look a bit prettier but decided from a user perspective that it became less readable when in larger blocks (the only exception being the pricing cards as they are small blocks of text).
+
+- I compared the two and got feedback from 4 users who all agreed they would find it easier to read and absorb the information from setup B; examples of setup A and setup B below:
+
+| Setup A                                              |                       Setup B                       |
+| ---------------------------------------------------- | :-------------------------------------------------: |
+| ![Services Section A](/assets/images/services-a.png) | ![Services Section B](assets/images/services-b.png) |
+| ![Benefits Section A](/assets/images/benefits-a.png) | ![Benefits Section B](assets/images/benefits-b.png) |
+
+- It does look tidier and provides a nicer reading experience for users. The spacing caused by justifying content also doesn't have an impact, I had expected it to cause a lot of unnecessary whitespace but it looks nicer than standard left alignment.
+
 ### Pricing
 
 I decided that upon reflection, for usability and in line with my user goals I would need to add a pricing section, rather than just having pricing within the services section.
