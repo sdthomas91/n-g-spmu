@@ -861,6 +861,10 @@ footer {
         margin: 0 15px 0 35px;
     }
 
+    .title-col {
+        font-size: 1.2rem;
+    }
+
     .info-col {
         padding: 0 0 0 15px;
         margin-top: 15px;
@@ -871,7 +875,7 @@ footer {
     }
 
     .info-col a {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .btt--btn {
