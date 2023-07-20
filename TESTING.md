@@ -210,6 +210,20 @@ For this element I wanted to provide some icons that would evoke emotion and int
   - Did trial no background colour, and whilst I liked the effect of a raised/frosted glass coin, it didn't tie in well with the rest of the site branding and colours. It also felt a little empty and not very eye catching.
     ![No backdrop](assets/images/benefits-none.png)
 
+##### Layout 
+
+- I had noticed that when scaling down, the col-6 rule was not working for mobile view - it was cramping the information and caused a horrible aesthetics. I decided to change it to col-12 for mobiles, but keep col-6 for medium to large as it displayed much nicer than the 4 column setup used on desktops.
+
+| Mobile view before | Mobile view After |
+  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+  | ![Before of mobile benefits](/assets/images/benefits-block-6.png) | ![After of site on medium screen](/assets/images/benefits-block-12.png) |
+
+- It was also lacking padding/margins on larger screens and was too wide compared to all other sections on the page. Provided left and right margin to tie it in with site style
+
+| Benefits section before | Benefits section After |
+  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+  | ![Before image of benefits section on large screen](/assets/images/benefits-section-before.png) | ![After image of benefits section on large screen](/assets/images/benefits-section-after.png) |
+
 ### Gallery
 
 #### Format
