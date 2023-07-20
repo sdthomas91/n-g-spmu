@@ -631,9 +631,30 @@ footer {
 
     background-color: #faefeb;
     padding: 20px 25px 20px 25px;
+    z-index: 2;
+    box-shadow: -2px -4px 8px rgba(85, 67, 60, 0.4);
 }
 
+.footer-table {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
+.footer-table a {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #55433c;
+}
+
+.footer-table i {
+    margin-right: 10px;
+}
+
+.copyright-text {
+    text-align: center;
+    margin-top: 15px;
+
+}
 
 /* ----------------------------- Media-Queries */
 
@@ -817,6 +838,10 @@ footer {
 
 
     /* ----------------------- Contact section ------- */
+    .contact-container {
+        margin-bottom: 50px;
+    }
+
     .form-control {
         font-size: 0.8rem;
     }
