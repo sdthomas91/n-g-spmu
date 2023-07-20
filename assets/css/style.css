@@ -582,14 +582,19 @@ small {
     margin-bottom: 15px;
 }
 
+.details-col {
+    padding: 0 30px 0 0;
+}
+
 .icon-col {
     text-align: right;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .title-col {
     display: table-cell;
     vertical-align: middle;
+    font-size: 1.4rem;
 }
 
 .title {
@@ -608,6 +613,13 @@ small {
     color: #55433c;
     text-decoration: underline;
 }
+
+.info-row {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+
 
 /* ----------------------------- Footer */
 
@@ -642,6 +654,7 @@ footer {
         margin-top: 50px;
     }
 
+
     /* Pricing card margin */
 
 
@@ -653,6 +666,9 @@ footer {
     #gal-content {
         column-count: 3;
     }
+
+
+
 
 }
 
@@ -782,6 +798,11 @@ footer {
         column-count: 2;
     }
 
+    .contact-form {
+
+        padding: 0 50px;
+    }
+
 }
 
 
@@ -867,6 +888,13 @@ footer {
     .nav-book-btn {
         padding-right: 50px;
     }
+
+    .contact-form {
+
+        margin: 0 0 0 30px;
+    }
+
+
 
 
 }
