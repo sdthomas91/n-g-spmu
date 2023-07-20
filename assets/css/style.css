@@ -151,6 +151,14 @@ small {
     border-radius: 20px;
 }
 
+.footer-divider {
+    width: 50px;
+    height: 1px;
+    border-radius: 25px;
+    margin: 10px 0;
+    text-align: left;
+}
+
 /* ----------------------------- Logo Strips */
 
 .logo-strip {
@@ -633,7 +641,7 @@ footer {
 .footer-container {
 
     background-color: #faefeb;
-    padding: 20px 25px 20px 25px;
+    padding: 30px 35px 20px 35px;
     z-index: 2;
     box-shadow: -2px -4px 8px rgba(85, 67, 60, 0.4);
 }
@@ -883,6 +891,14 @@ footer {
         padding: 20px;
     }
 
+    /* ------------------------- Footer */
+    .footer-table {
+        font-size: 1rem;
+    }
+
+    .footer-table a {
+        font-size: 0.8rem;
+    }
 
 }
 
