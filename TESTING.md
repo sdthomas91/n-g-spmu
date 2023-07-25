@@ -339,6 +339,16 @@ As there are only 3 services I have used the Bootstrap pricing template and will
   | ![Html Errors 1](/assets/images/error-html-1.png) | ![Html Errors 2](/assets/images/error-html-2.png) |![Html Errors 3](/assets/images/error-html-3.png) |
   | ![Html Errors 4](/assets/images/error-html-4.png) | ![Html Errors 5](/assets/images/error-html-5.png) ||
 
+- Errors were all addressed and corrected accordingly - html trial code has been moved to this document for reference only
+| HTML Validation Errors Corrected |
+  | -------------------- |
+  | ![Html Errors 1](/assets/images/no-error-html.png) |
+
+
+#### CSS Validation 
+
+
+
 ## Unused Code
 
 ### Pricing Card Code
