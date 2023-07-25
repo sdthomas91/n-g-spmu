@@ -63,8 +63,13 @@
                 </ul>
             </div>
             <div class="d-none d-lg-block nav-book-btn">
-                <a href="index.html#contact.html" class="btn btn--cta btn--pink box-shadow--dark">Book Now</a>
+                <button type="button" class="btn btn--cta btn--pink box-shadow--dark" data-toggle="modal"
+                    data-target="#bookNowModal">
+                    Book Now
+                </button>
+                <!-- <a href="index.html#contact.html" class="btn btn--cta btn--pink box-shadow--dark">Book Now</a> -->
             </div>
+
         </nav>
     </div>
     <!-- /navigation-->
@@ -92,6 +97,62 @@
         </div>
     </div>
     <!-- /callout-->
+    <!-- BOOK NOW MODAL (Bootstrap template used) -->
+    <!-- Book Now Modal -->
+    <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog" aria-labelledby="bookNowModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="clear: both; float: left;" id="bookNowModalTitle">Book Now</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <h6>Please submit your booking request below. We aim to confirm all bookings within 48 hours</h6>
+                    <form action="POST">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName" aria-describedby="firstName"
+                                placeholder="Enter First Name" required>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" aria-describedby="lastName"
+                                placeholder="Enter Last Name" required>
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="Enter Email" required>
+                        </div>
+                        <div>
+                            <p><small>Please select the service you are enquiring about (you may select multiple
+                                    services)</small></p>
+                        </div>
+                        <div class="form-group form-checkboxes">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="lipBlushCheckbox" value="lipBlush">
+                                <label class="form-check-label" for="lipBlushCheckbox">Lip Blush</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="eyeLinerCheckbox" value="eyeLiner">
+                                <label class="form-check-label" for="eyeLinerCheckbox">Eye Liner</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="microbladingCheckbox"
+                                    value="microblading">
+                                <label class="form-check-label" for="microbladingCheckbox">Microblading</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //BOOK NOW MODAL -->
     <!-- aboutTechnician Section -->
     <div id="about" class="container-fluid"></div>
     <section class="tech-about container-fluid">
@@ -473,7 +534,7 @@
                 </div>
             </div>
         </div>
-        <!-- MODAL Bootstrap -->
+        <!-- //MODAL Bootstrap -->
     </section>
     <section class="container-fluid contact-container">
         <div class="row contact-title">
