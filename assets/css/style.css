@@ -151,14 +151,6 @@ small {
     border-radius: 20px;
 }
 
-.footer-divider {
-    width: 50px;
-    height: 1px;
-    border-radius: 25px;
-    margin: 10px 0;
-    text-align: left;
-}
-
 /* ----------------------------- Logo Strips */
 
 .logo-strip {
@@ -175,7 +167,15 @@ small {
     width: 80%;
 }
 
+/* ----------------------------- Book Now Modal */
+
+.book-now-small {
+    margin-top: 10px;
+}
+
+
 /* ----------------------------- Buttons */
+
 
 .btn--cta {
     font-weight: 500;
@@ -197,6 +197,20 @@ small {
     border-color: #e6a288;
     color: #55433c;
 }
+
+.btn--dark {
+    color: #55433c;
+}
+
+.btn--dark:hover,
+.btn--dark:active,
+.btn--dark:focus,
+.btn--dark:active:focus {
+    background-color: #55433c;
+    border-color: #55433c;
+    color: #fffcfa;
+}
+
 
 .btn-lg {
     margin-bottom: 10px;
@@ -575,9 +589,6 @@ small {
 }
 
 /* ----------------------------- ContactUs */
-.contact-container {
-    margin-bottom: 50px;
-}
 
 .contact-title {
     margin-top: 75px;
@@ -641,7 +652,7 @@ footer {
 .footer-container {
 
     background-color: #faefeb;
-    padding: 30px 35px 20px 35px;
+    padding: 20px 25px 20px 25px;
     z-index: 2;
     box-shadow: -2px -4px 8px rgba(85, 67, 60, 0.4);
 }
@@ -849,7 +860,9 @@ footer {
 
 
     /* ----------------------- Contact section ------- */
-
+    .contact-container {
+        margin-bottom: 50px;
+    }
 
     .form-control {
         font-size: 0.8rem;
@@ -869,10 +882,6 @@ footer {
         margin: 0 15px 0 35px;
     }
 
-    .title-col {
-        font-size: 1.2rem;
-    }
-
     .info-col {
         padding: 0 0 0 15px;
         margin-top: 15px;
@@ -883,7 +892,7 @@ footer {
     }
 
     .info-col a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .btt--btn {
@@ -891,14 +900,6 @@ footer {
         padding: 20px;
     }
 
-    /* ------------------------- Footer */
-    .footer-table {
-        font-size: 1rem;
-    }
-
-    .footer-table a {
-        font-size: 0.8rem;
-    }
 
 }
 

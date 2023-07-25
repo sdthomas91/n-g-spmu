@@ -98,7 +98,6 @@
     </div>
     <!-- /callout-->
     <!-- BOOK NOW MODAL (Bootstrap template used) -->
-    <!-- Book Now Modal -->
     <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog" aria-labelledby="bookNowModal"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -117,14 +116,18 @@
                             <label for="firstName">First Name</label>
                             <input type="text" class="form-control" id="firstName" aria-describedby="firstName"
                                 placeholder="Enter First Name" required>
+                        </div>
+                        <div class="form-group">
                             <label for="lastName">Last Name</label>
                             <input type="text" class="form-control" id="lastName" aria-describedby="lastName"
                                 placeholder="Enter Last Name" required>
+                        </div>
+                        <div>
                             <label for="email">Email</label>
                             <input type="email" class="form-control" id="email" aria-describedby="email"
                                 placeholder="Enter Email" required>
                         </div>
-                        <div>
+                        <div class="book-now-small">
                             <p><small>Please select the service you are enquiring about (you may select multiple
                                     services)</small></p>
                         </div>
@@ -146,8 +149,8 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn--cta btn--dark" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn--cta btn--pink box-shadow--dark">Submit Request</button>
                 </div>
             </div>
         </div>
