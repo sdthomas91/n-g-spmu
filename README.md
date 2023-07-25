@@ -17,7 +17,7 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the practitioner/organisation.
     2. As a First Time Visitor, I want to be able to easily locate an option to contact or book in.
     3. As a First Time Visitor, I want to be able to easily navigate throughout the site to understand pricing and details of different services
-    4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    4. As a First Time Visitor, I want to look for results images so I know whether or not to trust their work. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
   - #### Returning Visitor Goals
 
@@ -134,9 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - #### First Time Visitor Goals
 
-  2. As a First Time Visitor, I want to be able to easily locate an option to contact or book in.
-  3. As a First Time Visitor, I want to be able to easily navigate throughout the site to understand pricing and details of different services
-  4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
 
   - #### Returning Visitor Goals
 
@@ -155,24 +153,33 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      2. The title gives a clear idea of the service being provided and prompts to book in.
      3. The user has two options, click the call to action buttons or scroll down. The former will allow them to book/enquire about the services available, the latter will allow them to learn more about the organisation.
      4. The back to top button gives the indication that there is more site to scroll, encouraging the exploration of the site.
-     5. The nav links are
 
-  2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+  2. As a First Time Visitor, I want to be able to easily locate an option to contact or book in.
 
-     1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-     2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-     3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+     1. There are two immediate options when first loading the page to book in for the services mentioned, wherein you can select the services you are interested in. This enables a modal so there is no need to leave the page in order to complete the booking process,.
+     1. The site has been designed to be fluid and never to entrap the user. The site provides a fixed nav bar and plenty of navigational links throughout the flow of the continous scroll page. 
+     1. On the first section after the hero image there is a call to action to "get in touch" that links to the contact form section
+     1. On the Contact Us Page, after a form response is submitted, it loads a thank you page, which still includes navbar providing good continuity and a button to return to the original page. 
 
-  3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-     1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-     2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-     3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+  3. As a First Time Visitor, I want to be able to easily locate an option to contact or book in.
+
+     1. Once the new visitor has read the About Us section, they then scroll to services which explains the services on offer, what they are and provide a link to see the pricing. 
+     2. All services and pricing can be found in the navbar as well as a number of links through the one page site linking to the relevant sections. 
+     3. Pricing is clear and concise with link to get in touch as a call to action. 
+     4. Benefits section describes why one might want to use the SPMU services on offer.
+
+  4. As a First Time Visitor, I want to look for results images so I know whether or not to trust their work. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+     1. There is navigation directly to a gallery for before and after images to be presented - responsive and in modal format for mobile for easier viewing. 
+     2. All social links can be found in the footer of the site with good interaction feedback to show they will serve a purpose.
+
+
 
 - #### Returning Visitor Goals
 
-  1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+  1. As a Returning Visitor, I want to find new or existing services.
 
-     1. These are clearly shown in the banner message.
+     1. Navbard provides links to current available services. 
      2. They will be directed to a page with another hero image and call to action.
 
   2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
