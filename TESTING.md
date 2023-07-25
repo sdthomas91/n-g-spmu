@@ -268,6 +268,18 @@ I wanted to implemnt a modal here so that mobile viewers could still have the op
 - The form is minimal so as to keep it compact and negate the need for the user to scroll through the modal window. There is also a close functionality should they decide they do not wish to submit a booking request yet.
 - Users have fedback that the new modal serves the purpose well and provides that immediate bookability.
 
+### Footer
+
+#### Table Layout
+
+- Decided to go for a table layout in the footer to display helpful links and social link separately
+- Utilised a standard table, did play with a divider beneath the table head but it looked untidy so removed and bolded the table head instead
+- Required some additional padding rules as on larger screens the foot tables looked a little too close to the edge
+  | Foot table before | Footer table after |
+  | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
+  | ![Footer table spacing before](/assets/images/footer-table-before.png) | ![Footer table spacing after](/assets/images/footer-table-after.png) |
+- Included a media query to change the padding on mobile screens as it pushed it too far to the right - tried with margins instead but it caused the columns to distort and move onto a second line
+
 # ELEMENT TESTING
 
 ## Buttons (outside of standard buttons)

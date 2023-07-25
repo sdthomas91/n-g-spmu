@@ -678,6 +678,8 @@ footer {
 .footer-table {
     font-weight: bold;
     font-size: 1.1rem;
+    padding: 20px 0 0 60px;
+    margin-bottom: 20px;
 }
 
 .footer-table-head {
@@ -936,6 +938,10 @@ footer {
     .btt--btn {
         right: 42%;
         padding: 20px;
+    }
+
+    .footer-table {
+        padding: 20px 0 0 30px;
     }
 
 
