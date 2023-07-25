@@ -702,6 +702,14 @@ footer {
     margin-right: 10px;
 }
 
+.footer-table i:hover,
+.footer-table i:active,
+.footer-table i:focus,
+.footer-table i:active:focus {
+    font-size: 110%;
+    color: #66554f;
+}
+
 .copyright-text {
     text-align: center;
     margin-top: 15px;
