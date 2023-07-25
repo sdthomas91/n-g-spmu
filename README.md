@@ -127,8 +127,8 @@ A separate Markdown document has been added to showcase code/UI/UX testing throu
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C Markup Validator](https://validator.w3.org/nu/#textarea) - Results can be seen in TESTING.md including errors and final validation
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - - Results can be seen in TESTING.md including errors and final validation
 
 ### Testing User Stories from User Experience (UX) Section
 
