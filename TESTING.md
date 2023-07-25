@@ -309,3 +309,10 @@ As there are only 3 services I have used the Bootstrap pricing template and will
    - Upon testing, anchor links work well, but not on medium or larger screens - this is because they don't need their own anchor tags.
    - Tried using bootstrap display rules to present different links depending on screen size - this allowd me to link to the pricing section as whole on larger screens, and to each individual price for each individual service on smaller screens when the blocks stack.
    - Works nicely, didn't need separate links for lip pricing as when stacked, the pricing anchor link works as a nice landing point anyway.
+
+### Site Layout
+
+1. It may be noted that the section widths vary throughout the site. Whilst this strays from the best practices of UX, it does serve a purpose. Due to the website being a single page continuous scroll, I wanted to provide the users with some sort of visual feedback to let them know that they were moving from section to section. By providing different width sections with varying margins, I believe the site achieves just that.
+
+- I ensured to modify the navigation margins so the logo and book button sat nicely in line with the sections - this provided aesthetic continuity and made it an easier viewing expeirence for users.
+- I do not believe the deviation from standard UX negatively impacts the sites aesthetic or flow, and so I decided to retain the setup, though some margins were tweaked so the sections weren't TOO wide.
