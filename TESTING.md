@@ -340,14 +340,16 @@ As there are only 3 services I have used the Bootstrap pricing template and will
   | ![Html Errors 4](/assets/images/error-html-4.png) | ![Html Errors 5](/assets/images/error-html-5.png) ||
 
 - Errors were all addressed and corrected accordingly - html trial code has been moved to this document for reference only
-| HTML Validation Errors Corrected |
+  | HTML Validation Errors Corrected |
   | -------------------- |
-  | ![Html Errors 1](/assets/images/no-error-html.png) |
+  | ![Html Errors Corrected](/assets/images/no-error-html.png) |
 
+#### CSS Validation
 
-#### CSS Validation 
-
-
+- All CSS clear - validation passed
+  | Validated CSS |
+  | -------------------- |
+  | ![CSS No Errors](/assets/images/no-error-css.png) |
 
 ## Unused Code
 
