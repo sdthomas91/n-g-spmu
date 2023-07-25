@@ -57,13 +57,13 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 
 ## Wireframes
 
-  - Main Page Wireframe - [View](https://www.figma.com/file/0p1Nlz6Kia954xdU5fe7HX/NG-spmu-wireframe?type=design&node-id=0%3A1&t=dXZ1j4cKAh2razPm-1)
+- Main Page Wireframe - [View](https://www.figma.com/file/0p1Nlz6Kia954xdU5fe7HX/NG-spmu-wireframe?type=design&node-id=0%3A1&t=dXZ1j4cKAh2razPm-1)
 
-  - Newsletter Modal Wireframe - [View](https://www.figma.com/file/6WPw1s4hxmiNXuZN8FP4b0/Untitled?type=design&node-id=0%3A1&t=irnY2dMoasWcrNAW-1)
+- Newsletter Modal Wireframe - [View](https://www.figma.com/file/6WPw1s4hxmiNXuZN8FP4b0/Untitled?type=design&node-id=0%3A1&t=irnY2dMoasWcrNAW-1)
 
-    ### Deviations 
+  ### Deviations
 
-    It should be noted that whilst the wireframes were implemented as part of the skeleton phase of UX planning at the outset, applying that 5 S's throughout led to some important amendments to increase functionality. I also realised that having originally planned for a newsletter modal, this did not fit in with the scope of the project. Instead, I have amended to use a book now modal, following feedback from a number of users. This provides an immediate and accessible option to submit a booking enquiry (in the place of a booking system, as that, too fell outside of the scope of this project)
+  It should be noted that whilst the wireframes were implemented as part of the skeleton phase of UX planning at the outset, applying that 5 S's throughout led to some important amendments to increase functionality. I also realised that having originally planned for a newsletter modal, this did not fit in with the scope of the project. Instead, I have amended to use a book now modal, following feedback from a number of users. This provides an immediate and accessible option to submit a booking enquiry (in the place of a booking system, as that, too fell outside of the scope of this project)
 
 ## Features
 
@@ -79,9 +79,9 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 
 - Back to top button allows quick navigation of single scroll page
 
-    ### User Feedback Implementations
-    
-    - A number of users fedback that they would prefer to have an immediate option to submit a booking enquiry rather than scroll to a generic contact form (the navigation could take them there, but "it still felt too generic") As such, I implemented a second modal with the purpose of submitting a booking request. It includes prompts, user feedback and notification that it could take up to 48 hours for a response so as to set user expectations. 
+  ### User Feedback Implementations
+
+  - A number of users fedback that they would prefer to have an immediate option to submit a booking enquiry rather than scroll to a generic contact form (the navigation could take them there, but "it still felt too generic") As such, I implemented a second modal with the purpose of submitting a booking request. It includes prompts, user feedback and notification that it could take up to 48 hours for a response so as to set user expectations.
 
 ## Technologies Used
 

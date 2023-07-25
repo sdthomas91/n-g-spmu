@@ -255,6 +255,19 @@ I wanted to implemnt a modal here so that mobile viewers could still have the op
   | ![Before of light nav elements](/assets/images/carousel-button-light.png) | ![After of dark nav elements](/assets/images/carousel-button-dark.png) |
 - Also increased modal footer top border and made it brand colour #eab29d with a low opacity so it was a bit softer.
 
+### Contact Us
+
+#### Contact form
+
+- A contact form was used as the main mode of contact, requiring generic contact details and the option to specify a treatment they wish to discuss and a large text area to provide a description of their enquiry.
+- The form worked well, but I wanted to provide some additional usability and so provided a second column whereby the users can go directly to whatsapp, email, socials or "find us" on google maps.
+
+#### Booking form
+
+- A popular user feedback was that there was no specific booking area - whilst there was a contact form it "felt too generic" and they would have liked to see a direct booking link. Whilst a booking system was outside of the scope of this project, I decided instead to implemnt a modal that would bring up a form separate to the contact form wherein a user can directly select the treatments they wish to book and submit their booking request. Aesthetically it works, the functionality is smooth and the bootstrap template helped keep it central.
+- The form is minimal so as to keep it compact and negate the need for the user to scroll through the modal window. There is also a close functionality should they decide they do not wish to submit a booking request yet.
+- Users have fedback that the new modal serves the purpose well and provides that immediate bookability.
+
 # ELEMENT TESTING
 
 ## Buttons (outside of standard buttons)
