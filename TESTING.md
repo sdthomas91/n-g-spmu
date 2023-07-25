@@ -328,3 +328,145 @@ As there are only 3 services I have used the Bootstrap pricing template and will
 
 - I ensured to modify the navigation margins so the logo and book button sat nicely in line with the sections - this provided aesthetic continuity and made it an easier viewing expeirence for users.
 - I do not believe the deviation from standard UX negatively impacts the sites aesthetic or flow, and so I decided to retain the setup, though some margins were tweaked so the sections weren't TOO wide.
+
+## Unused Code
+
+### Pricing Card Code
+1. I have provided the sample code I put together for a frosted glass effect on the pricing cards. It would require further development to prove a better UX than the existing design, however I  still wanted to showcase the idea.
+
+
+    ```html
+    <div class="bg-1">
+    <div class="row container-fluid">
+        <div class="col-12 col-md-4">
+            <div class="blur-container">
+                <div class="row card-text">
+                    <div class="col-12 card-title">
+                        <h4 class="text-center my-0 font-weight-500">Eyebrows</h4>
+                    </div>
+                </div>
+                <div class="row card-body">
+                    <div class="col-12 text-center">
+                        <h1 class="pricing-card-title">£225 <small class="text-muted x-small d-md-none d-lg-inline">inc.
+                                Topup</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Long-lasting colour</li>
+                            <li>No fade or smudge</li>
+                            <li>Naturally defined brows</li>
+                            <li>No need for makeup</li>
+                        </ul>
+                        <button type="button" class="btn btn--cta btn--pink box-shadow--dark btn--pricing">Enquire
+                            Now</button>
+                        <small class="text-muted x-small d-none d-md-inline d-lg-none">Includes <strong
+                                class="text-uppercase">free</strong>
+                            topup</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="blur-container">
+                <div class="row card-text">
+                    <div class="col-12 card-title">
+                        <h4 class="text-center my-0 font-weight-500">Eyebrows</h4>
+                    </div>
+                </div>
+                <div class="row card-body">
+                    <div class="col-12 text-center">
+                        <h1 class="pricing-card-title">£225 <small class="text-muted x-small d-md-none d-lg-inline">inc.
+                                Topup</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Long-lasting colour</li>
+                            <li>No fade or smudge</li>
+                            <li>Naturally defined brows</li>
+                            <li>No need for makeup</li>
+                        </ul>
+                        <button type="button" class="btn btn--cta btn--pink box-shadow--dark btn--pricing">Enquire
+                            Now</button>
+                        <small class="text-muted x-small d-none d-md-inline d-lg-none">Includes <strong
+                                class="text-uppercase">free</strong>
+                            topup</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="blur-container">
+                <div class="row card-text">
+                    <div class="col-12 card-title">
+                        <h4 class="text-center my-0 font-weight-500">Eyebrows</h4>
+                    </div>
+                </div>
+                <div class="row card-body">
+                    <div class="col-12 text-center">
+                        <h1 class="pricing-card-title">£225 <small class="text-muted x-small d-md-none d-lg-inline">inc.
+                                Topup</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Long-lasting colour</li>
+                            <li>No fade or smudge</li>
+                            <li>Naturally defined brows</li>
+                            <li>No need for makeup</li>
+                        </ul>
+                        <button type="button" class="btn btn--cta btn--pink box-shadow--dark btn--pricing">Enquire
+                            Now</button>
+                        <small class="text-muted x-small d-none d-md-inline d-lg-none">Includes <strong
+                                class="text-uppercase">free</strong>
+                            topup</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    ```
+    ```css
+    .bg-1 {
+background: #eab29d;
+display: grid;
+align-items: center;
+justify-content: center;
+height: 100vh;
+widht: 100vw;
+font-family: 'Montserrat', sans-serif;
+    }
+
+    .blur-container {
+    min-width: 100%;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+    position: relative;
+    background: inherit;
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 1;
+    }
+
+    .col-12 >h4 {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .card-title {
+    padding-top: 20px;
+    background-color: rgba(255, 252, 250, 0.2);
+    padding-bottom: 20px;
+    }
+
+    .x-small {
+    font-size: 50%;
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    }
+
+    .blur-container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 1000px rgba(255, 255, 255, 1);
+    filter: blur(10px);
+    margin: -20px;
+    z-index: -1;
+    }
+    ```
