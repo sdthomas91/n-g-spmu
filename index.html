@@ -87,9 +87,10 @@
                         in depth consultaton
                     </p>
 
-                    <button class="btn btn--cta btn--pink box-shadow--dark btn-lg" data-toggle="modal"
-                        data-target="#contactModal">Book
-                        Now</button>
+                    <button type="button" class="btn btn--cta btn--pink box-shadow--dark book-btn-modal"
+                        data-toggle="modal" data-target="#bookNowModal">
+                        Book Now
+                    </button>
                     <p class="text-muted"><small>All appointments require a skin allergy test at least 48 hours
                             prior to treatment</small></p>
                 </section>
@@ -101,15 +102,15 @@
     <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog" aria-labelledby="bookNowModal"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" style="clear: both; float: left;" id="bookNowModalTitle">Book Now</h5>
+            <div class="modal-content book-modal-content">
+                <div class="modal-header book-modal-header">
+                    <h3 class="modal-title text-uppercase" id="bookNowModalTitle">Book Now</h3>
+
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-
-                <div class="modal-body">
+                <div class="modal-body book-modal-body">
                     <h6>Please submit your booking request below. We aim to confirm all bookings within 48 hours</h6>
                     <form action="POST">
                         <div class="form-group">
@@ -188,7 +189,7 @@
                 </p>
 
                 <div class="d-block about--btn">
-                    <a href="/contact.html" class="btn btn--cta btn--pink box-shadow--dark">Get In Touch</a>
+                    <a href="index.html#contact" class="btn btn--cta btn--pink box-shadow--dark">Get In Touch</a>
                 </div>
             </div>
         </div>
@@ -537,6 +538,7 @@
                 </div>
             </div>
         </div>
+
         <!-- //MODAL Bootstrap -->
     </section>
     <section class="container-fluid contact-container">
@@ -676,8 +678,7 @@
             <div class="col-6 footer-table">
                 <table>
                     <thead>
-                        <tr>Helpful Links</tr>
-                        <hr class="footer-divider divider--dark">
+                        <tr class="footer-table-head">Helpful Links</tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -698,8 +699,7 @@
             <div class="col-6 footer-table">
                 <table>
                     <thead>
-                        <tr>Socials</tr>
-                        <hr class="footer-divider divider--dark">
+                        <tr class="footer-table-head">Socials</tr>
                     </thead>
                     <tbody>
                         <tr>

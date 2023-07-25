@@ -151,6 +151,7 @@ small {
     border-radius: 20px;
 }
 
+
 /* ----------------------------- Logo Strips */
 
 .logo-strip {
@@ -173,6 +174,18 @@ small {
     margin-top: 10px;
 }
 
+.book-modal-content {
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.book-modal-header {
+    border-bottom: none;
+}
+
+.book-modal-body {
+    border-top: 2px solid rgba(234, 178, 157, 0.3);
+}
 
 /* ----------------------------- Buttons */
 
@@ -231,6 +244,10 @@ small {
 
 .btn--modal i {
     margin-left: 10px;
+}
+
+.book-btn-modal {
+    margin-bottom: 15px;
 }
 
 /* ----------------------------- Back to Top */
@@ -647,6 +664,7 @@ small {
 
 footer {
     background-color: #fafafa;
+    margin-top: 50px;
 }
 
 .footer-container {
@@ -662,10 +680,22 @@ footer {
     font-size: 1.1rem;
 }
 
+.footer-table-head {
+    margin-bottom: 15px;
+}
+
 .footer-table a {
     font-weight: 400;
     font-size: 0.9rem;
     color: #55433c;
+}
+
+.footer-table a:hover,
+.footer-table a:active,
+.footer-table a:focus,
+.footer-table a:active:focus {
+    font-weight: 600;
+    color: #66554f;
 }
 
 .footer-table i {
