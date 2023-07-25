@@ -481,6 +481,12 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="galleryModalLabel">Our Results</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                     <div class="modal-body">
                         <div id="carouselGalleryControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
@@ -575,17 +581,16 @@
                     </div>
                     <div class="form-group form-checkboxes">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="lipBlushCheckbox" value="lipBlush">
-                            <label class="form-check-label" for="lipBlushCheckbox">Lip Blush</label>
+                            <input class="form-check-input" type="checkbox" id="lipBlushCheck" value="lipBlush">
+                            <label class="form-check-label" for="lipBlushCheck">Lip Blush</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="eyeLinerCheckbox" value="eyeLiner">
-                            <label class="form-check-label" for="eyeLinerCheckbox">Eye Liner</label>
+                            <input class="form-check-input" type="checkbox" id="eyeLinerCheck" value="eyeLiner">
+                            <label class="form-check-label" for="eyeLinerCheck">Eye Liner</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="microbladingCheckbox"
-                                value="microblading">
-                            <label class="form-check-label" for="microbladingCheckbox">Microblading</label>
+                            <input class="form-check-input" type="checkbox" id="microbladingCheck" value="microblading">
+                            <label class="form-check-label" for="microbladingCheck">Microblading</label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -681,7 +686,7 @@
             <div class="col-6 footer-table">
                 <table>
                     <thead>
-                        <tr class="footer-table-head">Helpful Links</tr>
+                        <th class="footer-table-head">Helpful Links</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -702,7 +707,7 @@
             <div class="col-6 footer-table">
                 <table>
                     <thead>
-                        <tr class="footer-table-head">Socials</tr>
+                        <th class="footer-table-head">Socials</th>
                     </thead>
                     <tbody>
                         <tr>
