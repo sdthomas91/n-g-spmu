@@ -201,6 +201,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - A large amount of testing was done to ensure that all sections on the continuous scroll were linking correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+#### Google Lighthouse 
+
+- Google Lighthouse was used to ensure compatability, best practice and accessibility as well as load times. 
+- Original load speed was in the 50th percentile, so amended images to be WebP format with PNG fallbacks - this brought it up to 79 out of 100. 
+- Amended to be JPG instead of PNG as fallback - this increased performance to 99 out of 100. 
+
+##### Accessibility
+
+- Accessibility sits at 99 out of 100 - all vitals pass the only issue they have is that an H4 is used out of order. This is not something I feel affects the site in such a way that it needs amending. 
+- Aria used correctly and passes on all checks
+
+##### Best Practices
+
+- Best Practices sits at 92 out of 100 - this was vital as it threw up an issue I had overlooked - it failed to load the previously addd PNG files. This was because the images had not been amended on the Carousel and so still affected speed and best practices.
+
+
 ### Known Bugs
 
 - A comprehensive list of bugs and resolutions can be found in the TESTING.md file
