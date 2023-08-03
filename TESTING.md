@@ -270,6 +270,7 @@ I wanted to implement a modal here so that mobile viewers could still have the o
 
 - A contact form was used as the main mode of contact, requiring generic contact details and the option to specify a treatment they wish to discuss and a large text area to provide a description of their enquiry.
 - The form worked well, but I wanted to provide some additional usability and so provided a second column whereby the users can go directly to whatsapp, email, socials or "find us" on google maps.
+- User feedback suggested that the ommission of an email or phone number section would not allow the site owner to contact the user in the event of a form submission. As such, a compulsory email input was added to the form.
 
 #### Booking form
 
