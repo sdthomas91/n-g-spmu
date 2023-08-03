@@ -79,6 +79,8 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
 
 - Back to top button allows quick navigation of single scroll page
 
+- Interaction feedback used throughout - this includes all clickable buttons/links, back to top button, navigational elements and social media icons. It included font size increasing, font colour changing, background and foreground colours changing or a combination of the three.
+
   ### User Feedback Implementations
 
   - A number of users fedback that they would prefer to have an immediate option to submit a booking enquiry rather than scroll to a generic contact form (the navigation could take them there, but "it still felt too generic") As such, I implemented a second modal with the purpose of submitting a booking request. It includes prompts, user feedback and notification that it could take up to 48 hours for a response so as to set user expectations.

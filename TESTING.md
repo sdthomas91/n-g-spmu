@@ -87,6 +87,14 @@ The purpose of this document is to identify key testing stages and instances whe
 
    Resolved ![Resolved tablet view](assets/images/pricing-resolved.png)
 
+1. Book Now Modal
+
+- Implemented a modal for a book now button as per user feedback. Styling was great, functionality met their needs, except the form wouldn't submit.
+  - Checked the Method and Action - ensured it was set to GET and redirect to contact-success.html.
+  - Checked button structure and it was fine
+  - Checked button location - it was sat outside of the form container and so wasn't functioning as a submit button.
+  - Relocated button into form and now works perfectly.
+
 # SECTION TESTING
 
 ## Header
@@ -105,7 +113,8 @@ The purpose of this document is to identify key testing stages and instances whe
 
 ### Navigation
 
-- Standard navigation featured left aligned menu; amended this to ensure centre alignemnt for easy viewing.
+- Standard navigation featured left aligned menu; amended this to ensure centre alignment for easy viewing.
+- Dropdown was used to ensure easy navigation without making the main nav too crammed. Dropdown functionality was taken from Bootstrap to ensure good responsiveness and smooth functionality.
 - Utilised bootstrap and css to ensure logo centered upon scaling down of screen size; this delivers a more appealing aesthetic with the hamburger icon
 - Included some interaction feedback with the navigation in the form of font colour change on hover. The font will change from a light grey to a dark grey to illustrate that it is a clickable link.
 
@@ -244,7 +253,7 @@ For this element I wanted to provide some icons that would evoke emotion and int
 
 #### Modal & Carousel
 
-I wanted to implemnt a modal here so that mobile viewers could still have the opportunity to view all images without a lot of unncessary scrolling.
+I wanted to implement a modal here so that mobile viewers could still have the opportunity to view all images without a lot of unncessary scrolling.
 
 - Used bootstrap modal popup to avoid the need for Javascript.
 - Within the modal I used a javascript Carousel - again alowing functionality without the need for JS.
@@ -290,7 +299,7 @@ I wanted to implemnt a modal here so that mobile viewers could still have the op
 - Added smooth scroll to CSS to ensure a smooth experience for users
 - Used empty href in order to ensure a complete top scroll - trie
   d "ID" anchor link but was clunky and unreliable
-- Utilised interaction feedback to help users know it is a clickable button
+- Utilised interaction feedback to help users know it is a clickable button - When hovered over the button will change to dark background with light arrow as opposed to the main light button with dark arrow.
 - Font awesome up arrow used to illustrate functionality
 - 'aria-hidden="true"' used as semantic icon - text alternative span used
 
