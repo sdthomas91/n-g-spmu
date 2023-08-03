@@ -211,8 +211,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ##### Load Speed
 
-- Original load speed was in the 50th percentile, so amended images to be WebP format with PNG fallbacks - this brought it up to 79 out of 100.
-- Amended to be JPG instead of PNG as fallback - this increased performance to 99 out of 100.
+- Original load speed was in the 53 out of 100 on mobile and 79 out of 100 on desktop.
+- Amended to be JPG instead of PNG as fallback - this increased performance to 92 out of 100 for dekstop and 80 out of 100 for mobile.
 
 ##### Accessibility
 
