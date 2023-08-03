@@ -166,8 +166,12 @@
 
             <!-- Larger image (rectangular) for side by side content on larger screens-->
             <div class="col-12 col-md-6 col-lg-5 col-xl-4 d-md-block d-none  tech--img">
-                <img id="ng-img" class="box-shadow--lg" src="assets/images/technician-img-long.webp"
-                    alt="Image of Semi Permanent Makeup Technician">
+                <picture>
+                    <source srcset="assets/images/technician-img-long.webp" type="image/webp">
+                    <source srcset="assets/images/technician-img-long.jpg" type="image/jpeg">
+                    <img id="ng-img" class="box-shadow--lg" src="assets/images/technician-img-long.jpg"
+                        alt="Image of Semi Permanent Makeup Technician">
+                </picture>
             </div>
 
             <div class=" about-us-info text-center text-md-left col-12 col-md-5 col-xl-4">
@@ -178,9 +182,12 @@
                     - Nina Gazzard -
                 </h4>
                 <!-- Smaller image (square) for stacked content on smaller screens -->
-
-                <img id="ng-img-sml" class="d-block d-md-none box-shadow--lg" src="assets/images/technician-img.webp"
-                    alt="Image of Semi Permanent Makeup Technician">
+                <picture class="d-block d-md-none">
+                    <source srcset="assets/images/technician-img.webp" type="image/webp">
+                    <source srcset="assets/images/technician-img.jpg" type="image/jpeg">
+                    <img id="ng-img-sml" class="box-shadow--lg" src="assets/images/technician-img.jpg"
+                        alt="Image of Semi Permanent Makeup Technician">
+                </picture>
                 <p>
                     Nina Gazzard is an esteemed Semi-Permanent Make-up Artist with a meticulous attention to detail.
                     With years of midwifery and medical experience behind her, Nina upholds the highest hygiene
@@ -243,15 +250,23 @@
                 <a href="index.html#pricing" class="dark-link">See Pricing<i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="col-md-6 col-12 d-none d-md-block img-container">
-                <img class="service-img box-shadow--lg" src="assets/images/lip-blush.png"
-                    alt="technician administering lip blush treatment">
+                <picture>
+                    <source srcset="assets/images/lip-blush.webp" type="image/webp">
+                    <source srcset="assets/images/lip-blush.png" type="image/png">
+                    <img class="service-img box-shadow--lg" src="assets/images/lip-blush.png"
+                        alt="technician administering lip blush treatment">
+                </picture>
             </div>
         </div>
         <div class="row container-fluid services-block services-block--pink block--liner">
             <div class=" d-md-none overlay--dark">&nbsp;</div>
             <div class="col-md-6 col-12 d-none d-md-block img-container">
-                <img class="service-img mx-auto" src="assets/images/eye-liner.png"
-                    alt="technician administering semi-permanent eyeliner treatment">
+                <picture>
+                    <source srcset="assets/images/eye-liner.webp" type="image/webp">
+                    <source srcset="assets/images/eye-liner.png" type="image/png">
+                    <img class="service-img box-shadow--lg" src="assets/images/eye-liner.png"
+                        alt="technician administering semi-permanent eyeliner treatment">
+                </picture>
             </div>
             <div class="col-md-6 col-12 d-block service-text text-center">
                 <h2>Eye Liner</h2>
@@ -288,8 +303,12 @@
                         class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="col-md-6 col-12 d-none d-md-block img-container">
-                <img class="service-img" src="assets/images/microblading.png"
-                    alt="technician performing a microblading treatment">
+                <picture>
+                    <source srcset="assets/images/microblading.webp" type="image/webp">
+                    <source srcset="assets/images/microblading.png" type="image/png">
+                    <img class="service-img box-shadow--lg" src="assets/images/microblading.png"
+                        alt="technician performing a microblading treatment">
+                </picture>
             </div>
         </div>
     </section>
@@ -457,16 +476,51 @@
             </div>
         </div>
         <div id="gal-content">
-            <img alt="Before and after image of lip blush" class="d-block" src="assets/images/lips-1.png">
-            <img alt="Before and after image of microblading" class="d-block" src="assets/images/brows-1.png">
-            <img alt="Before and after image of lip blush" class="d-none d-md-block" src="assets/images/lips-2.png">
-            <img alt="Before and after image of microblading" class="d-none d-md-block" src="assets/images/brows-2.png">
-            <img alt="Before and after image of microblading" class="d-block" src="assets/images/brows-3.png">
-            <img alt="Before and after image of microblading" class="d-block" src="assets/images/brows-5.png">
-            <img alt="Before and after image of microblading" class="d-none d-md-block" src="assets/images/brows-5.png">
-            <img alt="Before and after image of lip blush" class="d-none d-md-block" src="assets/images/lips-1.png">
-            <img alt="Before and after image of microblading" class="d-none d-md-block d-lg-none"
-                src="assets/images/brows-2.png">
+            <picture class="d-block">
+                <source srcset="assets/images/lips-1.webp" type="image/webp">
+                <source srcset="assets/images/lips-1.png" type="image/png">
+                <img src="assets/images/lips-1.png" alt="Before and after image of lip blush">
+            </picture>
+            <picture class="d-block">
+                <source srcset="assets/images/brows-1.webp" type="image/webp">
+                <source srcset="assets/images/brows-1.png" type="image/png">
+                <img src="assets/images/brows-1.png" alt="Before and after image of microblading">
+            </picture>
+            <picture class="d-none d-md-block">
+                <source srcset="assets/images/lips-2.webp" type="image/webp">
+                <source srcset="assets/images/lips-2.png" type="image/png">
+                <img src="assets/images/lips-2.png" alt="Before and after image of lip blush">
+            </picture>
+            <picture class="d-none d-md-block">
+                <source srcset="assets/images/brows-2.webp" type="image/webp">
+                <source srcset="assets/images/brows-2.png" type="image/png">
+                <img src="assets/images/brows-2.png" alt="Before and after image of microblading">
+            </picture>
+            <picture class="d-block">
+                <source srcset="assets/images/brows-3.webp" type="image/webp">
+                <source srcset="assets/images/brows-3.png" type="image/png">
+                <img src="assets/images/brows-3.png" alt="Before and after image of microblading">
+            </picture>
+            <picture class="d-block">
+                <source srcset="assets/images/brows-5.webp" type="image/webp">
+                <source srcset="assets/images/brows-5.png" type="image/png">
+                <img src="assets/images/brows-5.png" alt="Before and after image of microblading">
+            </picture>
+            <picture class="d-none d-md-block">
+                <source srcset="assets/images/brows-5.webp" type="image/webp">
+                <source srcset="assets/images/brows-5.png" type="image/png">
+                <img src="assets/images/brows-5.png" alt="Before and after image of microblading">
+            </picture>
+            <picture class="d-none d-md-block">
+                <source srcset="assets/images/lips-1.webp" type="image/webp">
+                <source srcset="assets/images/lips-1.png" type="image/png">
+                <img src="assets/images/lips-1.png" alt="Before and after image of lip blush">
+            </picture>
+            <picture class="d-none d-md-block d-lg-none">
+                <source srcset="assets/images/brows-2.webp" type="image/webp">
+                <source srcset="assets/images/brows-2.png" type="image/png">
+                <img src="assets/images/brows-2.png" alt="Before and after image of microblading">
+            </picture>
         </div>
         <!-- Button to open modal - template from Bootstrap -->
         <div class="container-fluid row d-block d-md-none">
