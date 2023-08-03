@@ -263,6 +263,7 @@ I wanted to implement a modal here so that mobile viewers could still have the o
   | --------------------------------------------------------------------------- | :---------------------------------------------------------------------------: |
   | ![Before of light nav elements](/assets/images/carousel-button-light.png) | ![After of dark nav elements](/assets/images/carousel-button-dark.png) |
 - Also increased modal footer top border and made it brand colour #eab29d with a low opacity so it was a bit softer.
+- Replaced all modal images with picture elements instead to provide webp images where compatible and replaced previous png versions with jpg versions to increase load speed
 
 ### Contact Us
 
