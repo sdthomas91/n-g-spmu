@@ -354,6 +354,8 @@ As there are only 3 services I have used the Bootstrap pricing template and will
   | -------------------- |
   | ![Html Errors Corrected](/assets/images/no-error-html.png) |
 
+  - Validation carried out for contact-success.html and was all clear
+
 #### CSS Validation
 
 - All CSS clear - validation passed
