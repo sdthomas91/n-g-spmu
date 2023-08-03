@@ -723,6 +723,19 @@ footer {
 
 }
 
+
+/* ----------------------------- Contact Success */
+
+.contact-success-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+}
+
+.contact-success-text {
+    padding: 0 50px;
+}
+
 /* ----------------------------- Media-Queries */
 
 
