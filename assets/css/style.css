@@ -187,6 +187,11 @@ small {
     border-top: 2px solid rgba(234, 178, 157, 0.3);
 }
 
+.modal-submit {
+    margin-top: 15px;
+    display: block;
+}
+
 /* ----------------------------- Buttons */
 
 
@@ -716,12 +721,6 @@ footer {
     text-align: center;
     margin-top: 15px;
 
-}
-
-/* ----------------------------- Thank you page */
-
-.contact-success-container {
-    margin-top: 200px;
 }
 
 /* ----------------------------- Media-Queries */
