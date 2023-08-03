@@ -204,6 +204,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 #### Google Lighthouse
 
 - Google Lighthouse was used to ensure compatability, best practice and accessibility as well as load times.
+
+##### Load Speed
+
 - Original load speed was in the 50th percentile, so amended images to be WebP format with PNG fallbacks - this brought it up to 79 out of 100.
 - Amended to be JPG instead of PNG as fallback - this increased performance to 99 out of 100.
 
