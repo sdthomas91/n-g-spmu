@@ -589,7 +589,7 @@ small {
 
 #gal-content img {
     width: 100%;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     border-radius: 25px;
 }
 
