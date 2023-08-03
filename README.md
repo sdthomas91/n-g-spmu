@@ -134,7 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - #### First Time Visitor Goals
 
-  2. 
+  2.
   3. As a First Time Visitor, I want to be able to easily navigate throughout the site to understand pricing and details of different services
   4. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
@@ -159,7 +159,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   2. As a First Time Visitor, I want to be able to easily locate an option to contact or book in.
 
      1. There are two immediate options when first loading the page to book in for the services mentioned, wherein you can select the services you are interested in. This enables a modal so there is no need to leave the page in order to complete the booking process,.
-     1. The site has been designed to be fluid and never to entrap the user. The site provides a fixed nav bar and plenty of navigational links throughout the flow of the continous scroll page. 
+     1. The site has been designed to be fluid and never to entrap the user. The site provides a fixed nav bar and plenty of navigational links throughout the flow of the continous scroll page.
      1. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
@@ -204,9 +204,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-- The website was viewed on a variety of devices such as Windows Desktop, Macbook, iMac, iPhone12, iPhone 14 & iPhone 8.
-- A large amount of testing was done to ensure that all pages were linking correctly.
+- The Website was tested on Google Chrome, Microsoft Edge and Safari browsers. It was also tested in Internet Explorer Mode on Microsoft Edge.
+- The website was viewed on a variety of devices such as HP Windows Desktop, Macbook, iMac, iPhone12, iPhone 14 Pro, iPhone 8, iPad Air, iPad Pro 12.9", Pixel 5, Samsung Galaxy S20 Ultra, Surface Pro 7 and Nest Hub.
+- A large amount of testing was done to ensure that all sections on the continuous scroll were linking correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
