@@ -259,11 +259,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-- [W3CSchools] (https://www.w3schools.com/) W3C schools used to reinforce CSS understanding
+- [W3CSchools](https://www.w3schools.com/) W3C schools used to reinforce CSS understanding
 
 - [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
-- [StackOverflow] (https://stackoverflow.com/) : For coding validation and tips on refining code. Also used for code snippets customised with my own css.
+- [StackOverflow](https://stackoverflow.com/) : For coding validation and tips on refining code. Also used for code snippets customised with my own css.
 
 - [BootStrap Pricing](https://getbootstrap.com/docs/4.0/examples/pricing/#) : Used bootstrap template for pricing structure as it provides a nice clean setup - will completely restyle but saved a lot of time on setting up the blocks
 
