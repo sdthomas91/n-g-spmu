@@ -279,7 +279,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-- Some Images were created or photographed by the developer
+- Some Images were created or photographed by the developer - these include the Logo and the hero image.
 
 #### Technician Image
 
