@@ -5,6 +5,7 @@
 The purpose of this document is to identify key testing stages and instances where decisions were made to change or keep certain features.
 
 ## Bugs (All bugs now Resolved)
+
 - Wanted to include a record of found and resolved bugs
 
 1. White Space down right hand side of screen - only on smaller screens
@@ -21,7 +22,7 @@ The purpose of this document is to identify key testing stages and instances whe
 
 1. A new white space down the right hand side of the screen
 
-   ![White space down side of smaller screens](assets/images/white-line-mobile.png)
+    <img src="assets/images/white-line-mobile.png" alt="White space down side of smaller screens" width="400px">
 
    - Used google chrome developer tools to examine each element. It became clear that the first and second div of the "Services Section" were responsible.
    - Attempted to utilise no gutters rule as this fixed the issue last time, but this time it was unsuccessful.
@@ -60,11 +61,11 @@ The purpose of this document is to identify key testing stages and instances whe
 1. Mobile view issue found - technician section sitting over to the right
 
    - Full screen the balance is fine but on mobile view the content is off center
-   - ![content off center](assets/images/tech-center-bug.jpeg)
+   - <img src="assets/images/tech-center-bug.jpeg" alt="content off center" width="400px"> 
    - used dev tools to check and the margin used to create balance in full screen is what throws it off
    - Added media query to remove margin on smaller screens
    - Issue resolved and content now centered nicely
-   - ![content centered](assets/images/tech-issue-fix.jpeg)
+   - <img src="assets/images/tech-issue-fix.jpeg" alt="content centered" width="400px">
 
 1. Nav link broken
 
@@ -152,7 +153,7 @@ The purpose of this document is to identify key testing stages and instances whe
 
    |                                       Mobile Image not showing |
    | -------------------------------------------------------------: |
-   | ![mobile image not showing](assets/images/mobile-hero-bug.PNG) |
+   | <img src="assets/images/mobile-hero-bug.PNG" alt="mobile image not showing" width="400px">|
 
    - Research suggests that parallax scrolling does not always work on mobile displays and so will provide a fallback image without fixed attribute and see if it resolves issue.
 
@@ -160,7 +161,7 @@ The purpose of this document is to identify key testing stages and instances whe
 
    |                                               Mobile Image Resolved |
    | ------------------------------------------------------------------: |
-   | ![mobile image not showing](assets/images/mobile-hero-resolve.jpeg) |
+   | <img src="assets/images/mobile-hero-resolve.jpeg" alt="mobile image not showing resolved" width="400px">|
 
 1. Hero image overlapping next section
    - On landscape view for some mobile devices the callout container overlaps onto the next section. The aesthetic isn't an issue, though it was causing the H1 element to get lost underneath the navbar.
@@ -198,9 +199,9 @@ Amended to remove heading and include inline with image for larger screens and h
 - Originally when going for stacked decided to use a light overlay with dark text for good contrast
 - Used image as background instead of stacking image and text as would be too monotonous with the element above doing the same
 - Even with overlay, the blocks were not presenting nicely and were not very reader friendly
-  - ![Light blocks](assets/images/light-blocks.png)
+  - <img src="assets/images/light-blocks.png" alt="Light blocks" width="400px">
 - Decided to change to a dark overlay on image block, light (but not completely opaque) container for text and uniform text and "hr" elements
-  - ![Dark blocks with box](assets/images/dark-blocks.png)
+  - <img src="assets/images/dark-blocks.png" alt="Dark blocks with box" width="400px">
 - Readability improved and screen contrast more in line with WebAIM recommendations
 
 #### Tablet view
@@ -371,7 +372,7 @@ As there are only 3 services I have used the Bootstrap pricing template and will
 
 1.  I have provided the sample code I put together for a frosted glass effect on the pricing cards. It would require further development to prove a better UX than the existing design, however I still wanted to showcase the idea.
 
-        ```html
+    ```html
         <div class="bg-1">
         <div class="row container-fluid">
             <div class="col-12 col-md-4">
@@ -447,25 +448,26 @@ As there are only 3 services I have used the Bootstrap pricing template and will
                                 Now</button>
                             <small class="text-muted x-small d-none d-md-inline d-lg-none">Includes <strong
                                     class="text-uppercase">free</strong>
-                                topup</small>
+                                            topup</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         </div>
-        ```
-        ```css
+    ``` 
+
+    ```css
         .bg-1 {
 
-    background: #eab29d;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    widht: 100vw;
-    font-family: 'Montserrat', sans-serif;
-    }
+        background: #eab29d;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Montserrat', sans-serif;
+        }
 
         .blur-container {
         min-width: 100%;
@@ -506,4 +508,4 @@ As there are only 3 services I have used the Bootstrap pricing template and will
         margin: -20px;
         z-index: -1;
         }
-        ```
+    ```
