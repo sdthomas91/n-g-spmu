@@ -4,7 +4,7 @@
 
 The purpose of this document is to identify key testing stages and instances where decisions were made to change or keep certain features.
 
-## Bugs
+## Bugs (Resolved)
 
 1. White Space down right hand side of screen - only on smaller screens
 
