@@ -114,14 +114,18 @@ Utilising Bootstrap row/column tool the site will present responsively and in a 
    - Illustrator was used to create the logo and website banners.
 1. [Figma:](https://www.figma.com/)
    - Figma was used to create the wireframes during the design process.
-1. [CSSGradient] (https://cssgradient.io/)
+1. [CSSGradient](https://cssgradient.io/)
    - CSSGradient.io was used to generate css gradient backgrounds.
-1. [OnePageLove] (https://onepagelove.com/)
+1. [OnePageLove](https://onepagelove.com/)
    - OnePageLove was used as inspiration for continuous scroll websites
-1. [StackOverflow] (https://stackoverflow.com/)
+1. [StackOverflow](https://stackoverflow.com/)
    - Used for code snippets and code validation
-1. [GoogleBard] (bard.google.com)
+1. [GoogleBard](bard.google.com)
    - Used Bard AI to help generate some good copy for the website
+1. [TinyPNG](https://tinypng.com/) 
+    - Used to compress images for better load speeds
+1. [CloudConvert](https://cloudconvert.com/png-to-jpg)
+   - Used to convert images to WebP and JPG for better load speed
 
 ## Testing
 
@@ -291,6 +295,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - [BootStrap Pricing](https://getbootstrap.com/docs/4.0/examples/pricing/#) : Used bootstrap template for pricing structure as it provides a nice clean setup - will completely restyle but saved a lot of time on setting up the blocks
 
 - [Sitepoint](https://www.sitepoint.com/community/t/center-text-and-container-inside-a-circle/102963/2) : thread found on sitepoint helped to refresh how to center vertically and horizontally
+
+- [CSS Tricks](https://css-tricks.com/using-webp-images) : Used to better understand the use of WebP and fallback JPG for a smoother/faster page load
 
 ### Content
 
